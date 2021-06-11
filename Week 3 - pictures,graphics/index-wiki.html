@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed tag</title>
+    <link rel="shortcut icon" href="/Assets/Images/icon.png" type="image/png">
+    <style>
+        aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+            display: block;
+        }
+
+        section {
+
+            margin: 20px;
+        }
+    </style>
+</head>
+​
+
+<body style="background-color: rgba(224, 206, 220, 0.671);>
+    <header style=" background-color: rgba(142, 149, 211, 0.329);">
+    <h1 style="text-align: center;">HTML5 <code class="w3-codespan">&lt;embed&gt;</code> tag</h1>
+    </header>
+    ​
+    <nav style="text-align: center;">
+        <a href='/mainpage/'>Main page</a> |
+        <a href='/contents/'>Contents</a> |
+        <a href='/randomtag/'>Random Tag</a> |
+        <a href='/aboutwiki/'>About Wiki</a> |
+        <a href='/contactus/'>Contact us</a> |
+        <a href='/RU/'>RU</a>
+    </nav>
+    ​
+    <main>
+
+        <aside
+            style="background: linear-gradient(90deg, rgba(215,89,128,0.42620798319327735) 0%, rgba(233,148,204,0.22452731092436973) 85%)">
+            <h2><i>Translation in Russian.</i><br /> Значение и применение</h2>
+            <p>Элемент <code class="w3-codespan">&lt;embed&gt;</code> html5 определяет контейнер для внешнего
+                приложения, мультимедийного файла или
+                интерактивного
+                контента (плагин). Предполагается, что содержимое элемента не может быть распознано браузером и
+                требуют
+                подключения внешних плагинов или специальных программ.</p>
+
+            <p>Он не входил в стандарт HTML 4, но поддерживался браузерами, официальный статус он обрёл лишь в
+                спецификации
+                HTML 5. Спецификация HTML 4.0 рекомендовала использовать тег <code
+                    class="w3-codespan">&lt;object&gt;</code> для загрузки внешних файлов,
+                поэтому
+                веб-мастера помещали тег <code class="w3-codespan">&lt;embed&gt;</code> html5 внутрь тега элемент
+                <code class="w3-codespan">&lt;object&gt;</code>, который применялся в качестве
+                запасного варианта в элементе <code class="w3-codespan">&lt;object&gt;</code>, чтобы обеспечить
+                поддержку более широкого круга
+                браузеров и
+                обеспечить валидность документа. В HTML 5 такой необходимоcти нет (элемент проходит
+                валидацию).</p>
+            <h2>Атрибуты</h2>
+            <div class="overflow">
+                <table class="tableTag">
+                    <tr>
+                        <th>Атрибут</th>
+                        <th>Значение</th>
+                        <th class="tatt">Описание</th>
+                    </tr>
+                    <tr>
+                        <td><span class="att">height<img class="tag" src="/Assets/Images/html5.png" alt="html5"
+                                    title="Добавлен в HTML5" style="width: 20%;"></span></td>
+                        <td><span class="zna">pixels</span></td>
+                        <td>Определяет высоту встроенного содержимого.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="att">src<img class="tag" src="/Assets/Images/html5.png" alt="html5"
+                                    title="Добавлен в HTML5" style="width: 20%;"></span></td>
+                        <td><span class="zna">URL</span></td>
+                        <td>Указывает адрес внешнего файла для встраивания.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="att">type<img class="tag" src="/Assets/Images/html5.png" alt="html5"
+                                    title="Добавлен в HTML5" style="width: 20%;"></span></td>
+                        <td><span class="zna">media_type</span></td>
+                        <td>Указывает <a
+                                href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_MIME-%D1%82%D0%B8%D0%BF%D0%BE%D0%B2"
+                                style="display:inline" target="_blank">MIME-тип</a> встроенного содержимого.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="att">width<img class="tag" src="/Assets/Images/html5.png" alt="html5"
+                                    title="Добавлен в HTML5" style="width: 20%;"></span></td>
+                        <td><span class="zna">pixels<br>%</span></td>
+                        <td>Определяет ширину встроенного содержимого.</td>
+                    </tr>
+                </table>
+            </div>
+        </aside>
+
+        <aside
+            style="background: linear-gradient(90deg, rgba(215,89,128,0.1741071428571429) 28%, rgba(157,93,116,0.46262254901960786) 95%)">
+            <p>
+                <code class="w3-codespan">&lt;embed&gt;</code> используется далеко не часто на страницах. Его
+                предназначение —
+                встраивание каких-то объектов на страницу. Например, флэш-ролики, флэш-игры, видео, музыка и т.п.
+                Является блочным элементом (занимает какую-то прямоугольную область на странице).
+            </p>
+            <ul>
+                <li>
+                    align="значение" — задание расположения относительно других объектов. Может принимать значения
+                    center
+                    right
+                    left</li>
+                <li>autostart="true/false" — включить или отключить автостарт. Если автостарт включен, то
+                    проигрывание
+                    начинается сразу же после загрузки страницы</li>
+                <li>bgcolor="значение" — задает цвет фона (либо в виде #XXXXXX, либо название цвета). Поскольку
+                    объект уже имеет
+                    какой-то цвет, то особого смысла в использовании нету.</li>
+                <li>height="значение" — высота объекта в пикселях или процентах. Например, 300px или 100%.</li>
+                <li>hidden="значение" — отвечает за видимость объекта (false - объект виден, true - скрыт)</li>
+                <li>hspace="значение" — горизонтальный отступ от границы до объекта. Значение задается в пикселях.
+                </li>
+                <li>vspace="значение" — вертикальный отступ от границы до объекта. Значение задается в пикселях.
+                </li>
+                <li>loop="значение" — количество циклов для проигрывания.</li>
+                <li>pluginspage="Адрес_URL" — если у браузера нету возможности открыть объект через свои средства,
+                    то
+                    загружается внешний плагин, через который и происходит загрузка. Например,
+                    pluginspage="http://www.macromedia.com/go/getflashplayer"</li>
+                <li>src="адрес_объекта" — адрес объекта для подключения</li>
+                <li>type="тип_файла" — определяет MIME-тип файла. Может принимать значения
+                    application/x-shockwave-flash
+                    image/gif
+                    video/mp4</li>
+                <li>volume="значение" — уровень громкости</li>
+                <li>width="ширина" — задаает ширину объекта в пикселях или процентах.</li>
+                <li>menu="true/false" — включить или отключить меню.</li>
+            </ul>
+        </aside>
+
+        <aside
+            style="background: linear-gradient(90deg, rgba(181,178,224,1) 0%, rgba(207,114,152,0.3757878151260504) 100%, rgba(0,212,255,1) 100%); float: inline-end;">
+            ​ <h2>Интересно знать </h2>
+            <p>Помимо тега <code>&lt;embed&gt;</code> можно использовать тег <code>&lt;object&gt;</code> для
+                размещения
+                видео на вашей html странице. </p>
+            <p>В этом примере мы разместили видео с видео хостинга YouTube с использованием тега
+                <code>&lt;object&gt;</code> html5.
+                Ширину и высоту видео задали с использовнием атрибутов width и height. Обратите внимание, что тег
+                <code>&lt;object&gt;</code> парный и путь к видео необходимо указывать атрибутом data, a тег
+                <code>&lt;embed&gt;</code> html5 имеет синтаксис
+                схожий с размещением обычного изображения (тег <code>&lt;img&gt;</code>) - использует атрибут src и
+                не
+                требует
+                закрывающего тега.</p>
+            <p>Результат нашего примера:</p>
+            <code>&lt;object width="320" height="240" data="https://www.youtube.com/embed/-_X6PhkjpzU"&gt;</code>
+            <code>&lt;/object&gt;</code>
+            <p><object width="320" height="240" data="https://www.youtube.com/embed/-_X6PhkjpzU">
+                </object></p>
+        </aside>
+
+        <section>
+            <article>
+                <h2>General information</h2>
+                <p>The <code class="w3-codespan">&lt;embed&gt;</code> tag in HTML is used for embedding external
+                    applications which are generally multimedia content like audio or video into an HTML document.<br />
+                    It
+                    is
+                    used as a container for embedding plug-ins such as flash animations. This tag is a new tag in HTML
+                    5,
+                    and it requires only starting tag.</p>
+            </article>
+
+            <article>
+                <h2>Syntax</h2>
+                <p><code class="w3-codespan">&lt;embed&gt;</code> attributes<p>
+                        <h2>Details:</h2>
+                        <p>The <code class="w3-codespan">&lt;embed&gt;</code> tag contains four attributes which are
+                            discussed below:
+                            <ul>
+                                <li><b>height:</b> This attribute contains the attribute value in pixel. It is used to
+                                    specify the
+                                    height of the embedded content.</li>
+                                <li><b>src:</b> It is used to hold the URL. It is used to specify the web address of the
+                                    embedded
+                                    content.</li>
+                                <li><b>width:</b> The width value is set in pixels. It is used to specify the width of
+                                    embedded
+                                    content.</li>
+                                <li><b>type:</b> It contains the media_type content. It is used to specify the media
+                                    type of
+                                    the
+                                    embedded content.</li>
+                            </ul>
+                        </p> ​
+            </article>
+            <article>
+                <h3>Example</h3>
+                <p>An embedded image:</p>
+                <i>You need to enter this code:</i>
+                <code class="w3-codespan">&lt;embed type="image/jpg" src="/Assets/Images/Santorini.jpg" width="300"
+                    height="200"&gt;</code>
+                <p>If you did everything right, then you should see the following picture.</p>
+                <embed type="image/jpg" src="/Assets/Images/Santorini.jpg" width="400" height="700">
+            </article>
+
+
+
+            <article>
+                <h3>Example</h3>
+                <p>An embedded HTML page:</p>
+                <i>Please, try this code:</i>
+                <code class="w3-codespan">&lt;embed type="text/html" src="snippet.html" width="500"
+                    height="200"&gt;</code>
+                <p>If you did everything right, then you should see the following picture.</p>
+                <embed type="text/html" src="https://basicweb.ru/html/tag_embed.php" width="600" height="200">
+            </article>
+
+            <article>
+                <h3>Example</h3>
+                <p>An embedded video:</p>
+                <i>Try this code out:</i>
+                <code class="w3-codespan">&lt;embed type="video/webm" src="https://www.youtube.com/embed/r7dZKOL5rcg"
+                    width="400" height="300"</code>
+                <p>If you did everything right, then you should see the following picture.</p>
+                <embed type="video/webm" src="https://www.youtube.com/embed/r7dZKOL5rcg" width="400" height="300">
+
+            </article>
+        </section>
+        ​
+
+        ​
+        <section>
+            <h2> Browser Support</h2>
+            <p>The <code class="w3-codespan">&lt;embed&gt;</code> tag is supported in all major modern browsers.</p>
+            ​
+            <table>
+                <tr>
+                    <td>
+                        <img src="https://www.tutorialrepublic.com/lib/images/browsers-icon.png" alt="Main browsers"
+                            style="float: left;"></td>
+                    ​
+                    <td>
+                        <p>Basic Support -</p>
+                        <ul>
+                            <li>Firefox 4+</li>
+                            <li>Google Chrome 6+</li>
+                            <li>Internet Explorer 9+ / Edge</li>
+                            <li>Apple Safari 5.1+</li>
+                            <li>Opera 11.1+</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        ​
+    </main>
+    ​
+    <footer
+        style="font-size: x-small;background: linear-gradient(90deg, rgba(215,89,128,0.42620798319327735) 43%, rgba(237,186,204,0.46262254901960786) 95%);color: white;text-align: center; clear: both;">
+        <p> &copy;ITGIRLSCHOOL</p>
+        <p>Школа IT-профессий для девушек</p>
+        <p>Contact information:
+            <a href="mailto:questions@itgirlschool.ru">questions@itgirlschool.ru</a>
+        </p>
+        <img src="https://thumb.tildacdn.com/tild3830-6462-4765-b738-653735313730/-/resize/110x/-/format/webp/logo_white.png"
+            alt="Itgirlschool logo">
+        <p><a href="about.html">About</a> -
+            <a href="policy.html">Privacy Policy</a> -
+            <a href="contact.html">Contact Us</a> -
+            <a href="disclosure.html">Disclosure and Privacy Policy</a></p>
+        ​
+    </footer>
+    ​
+</body>
+​
+
+</html>

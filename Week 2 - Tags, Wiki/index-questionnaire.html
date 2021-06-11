@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+</head>
+
+<body>
+    <h1>Questionnaire for the cat-owners</h1>
+    <div><label for="name">Pet name</label>
+        <input type="text" id="name">
+    </div><br />
+    <div>
+        <fieldset>
+            <legend>Owner's personal data</legend>
+            <label for="owner">Owner's name</label>
+            <input type="text" id="owner">
+            <label for="contacts">Owner's contact details</label>
+            <input type="text" id="contacts">
+        </fieldset>
+    </div>
+    <div>
+        <p>Pet's breed:</p>
+        <select>
+            <option value="first option">British Shorthair</option>
+            <option value="second option">Main Coon</option>
+            <option value="third option" selected="selected">Bengal</option>
+            <option value="fourth option">Siamese</option>
+            <option value="fifth option">Persian</option>
+        </select>
+        <div><br />
+            <form>
+                <p> What does your pet eat? </p>
+                <input type="checkbox" name="food" value="1" />
+                dry food<br />
+                <input type="checkbox" name="food" value="2" />
+                wet food <br />
+                <input type="checkbox" name="food" value="3" />
+                natural food
+            </form>
+        </div><br />
+        <div>
+            <form>
+                <p> Is it female or male? </p>
+                <input type="radio" name="sex" value="f" /> Female<br />
+                <input type="radio" name="sex" value="m" /> Male
+            </form>
+        </div>
+        <div>
+            <p>Owner's comments:</p>
+            <textarea rows="15" cols="30"></textarea>
+        </div>
+        <div>
+            <form>
+                <p> Attach a photo of your pet: </p>
+                <input type="file">
+            </form>
+        </div><br />
+        <div>
+            <form>
+                <input type="button" value="Save">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

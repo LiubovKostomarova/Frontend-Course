@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figure tag</title>
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/400/400378.png" type="image/png">
+    <style>
+        aside {
+            width: 30%;
+            padding-left: 15px;
+            margin-left: 15px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body style="background-color: thistle;">
+    <header>
+        <h1 style="text-align: center;">HTML5 <code class="w3-codespan">&lt;figure&gt;</code> tag</h1>
+    </header>
+
+    <nav style="text-align: center;">
+        <a href='/mainpage/'>Main page</a> |
+        <a href='/contents/'>Contents</a> |
+        <a href='/randomarticle/'>Random article</a> |
+        <a href='/aboutwiki/'>About Wiki</a> |
+        <a href='/contactus/'>Contact us</a> |
+        <a href='/donate/'>Donate</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Description</h2>
+            The <code class="w3-codespan">&lt;figure&gt;</code> element represents a unit of content, optionally with a
+            caption, that is self-contained and
+            typically referenced as a single unit. Usually this is an image, an illustration, a diagram, or a code
+            snippet that is referenced in the main text.
+
+        </section>
+
+        <aside style="background-color: rgb(192, 158, 185);">
+            <h2>Poetry/Lyrics</h2>
+            <p>Poems and lyrics could also be marked up with the <code class="w3-codespan">&lt;figure&gt;</code> tag.
+                Notice that the <code class="w3-codespan">&lt;cite&gt;</code> element is inside the <code
+                    class="w3-codespan">&lt;figcaption&gt;</code> element.</p>
+            <p>Example:<br /></p>
+            <p><code class="w3-codespan">&lt;figure&gt;</code></p>
+            <p>Я вас любил: любовь еще, быть может,<br>
+                В душе моей угасла не совсем;<br>
+                Но пусть она вас больше не тревожит;<br>
+                Я не хочу печалить вас ничем.
+                <code class="w3-codespan">&lt;figcaption&gt;<br /></code></p>
+            <p><code class="w3-codespan">&lt;cite&gt;</code>Александр
+                Пушкин<code class="w3-codespan">&lt;/cite&gt;</code><code
+                    class="w3-codespan">&lt;figcaption&gt;</code><br /></p>
+            <p><code class="w3-codespan">&lt;/figure&gt;</code>
+            </p>
+            <p style="font-style: italic;"> <strong> Look at the result:</strong></p>
+            <figure>
+                <p>
+                    Я вас любил: любовь еще, быть может,<br>
+                    В душе моей угасла не совсем;<br>
+                    Но пусть она вас больше не тревожит;<br>
+                    Я не хочу печалить вас ничем.</p>
+                <figcaption><cite>Александр Пушкин</cite></figcaption>
+            </figure>
+        </aside>
+
+        <section>
+
+            <h2>Syntax</h2>
+            <p>The basic syntax of the <code class="w3-codespan">&lt;figure&gt;</code> tag is given with: <p>
+
+                    <i>HTML / XHTML</i>: <code class="w3-codespan">&lt;figure&gt;</code> ...
+                    <code class="w3-codespan">&lt;figure&gt;</code> <br />
+                    <p>Use a <code class="w3-codespan">&lt;figure&gt;</code> element to mark up a photo in a document,
+                        and a <code class="w3-codespan">&lt;figcaption&gt;</code> element to
+                        define a caption for the photo:</p>
+                    <p><strong>Example</strong></p>
+
+                    <p><code class="w3-codespan">&lt;figure&gt;</code><br />
+                        <code class="w3-codespan">&lt;img
+                            src="https://institut-seltene-erden.de/wp-content/uploads/2019/09/apple-headquarter-Cupertino.jpg"<br />
+                            alt="Silicon Valley"&gt;</code><br />
+                        <code class="w3-codespan">&lt;figcaption&gt;</code>Silicon Valley - view from the
+                        helicopter<code class="w3-codespan">&lt;figcaption&gt;</code><br /> <code
+                            class="w3-codespan">&lt;figure&gt;</code></p>
+
+                    <p><strong>Result:</strong>
+                    </p>
+                    <figure><img
+                            src="https://institut-seltene-erden.de/wp-content/uploads/2019/09/apple-headquarter-Cupertino.jpg"
+                            width="300" height="300" alt="Silicon Valley"><br>
+                        <figcaption>Silicon Valley - view from the helicopter
+                        </figcaption>
+                    </figure>
+                    <strong>Note:</strong> The content of the <code class="w3-codespan">&lt;figure&gt;</code>
+                    element
+                    is however
+                    related to the
+                    main
+                    flow, but its position is independent<br /> of the main flow and it
+                    can be
+                    moved away from the main flow of the document without affecting
+                    the
+                    document's meaning.
+        </section>
+
+        <aside style="background-color: rgb(192, 158, 185);">
+
+            <h2><code>&lt;figure&gt;</code> vs. <code>&lt;aside&gt;</code></h2>
+            <p>The <code>&lt;figure&gt;</code> and <code>&lt;aside&gt;</code> element seem to
+                have similar uses, according to the specification. Some people use <code>&lt;aside&gt;</code> for pull
+                quotes and content-related sidebars, so there is some overlap.<br /> But there are also some
+                differences.
+                The major difference, of course, is that <code>&lt;aside&gt;</code> doesn&#8217;t have a built-in
+                caption
+                element. So if you side-content requires a caption, that might
+                indicate that it is really a <code>&lt;figure&gt;</code>.<br /> More importantly, though, the
+                <code>&lt;figure&gt;</code> is for content directly related to the main content, while
+                <code>&lt;aside&gt;</code> is for &#8220;tangentially related&#8221; content.<br /> This suggests that
+                pull-quotes, infographics, charts, and other content specific to a particular article of content should
+                be placed in a <code>&lt;figure&gt;</code>, while the <code>&lt;aside&gt;</code> element should be used
+                for sidebar sections and (perhaps) comments.</p>
+        </aside>
+
+        <section>
+            <h2> Compatibility</h2>
+            <p>The <code class="w3-codespan">&lt;figure&gt;</code> tag is supported in all major modern browsers.</p>
+
+            <table>
+                <tr>
+                    <td>
+                        <img src="https://www.tutorialrepublic.com/lib/images/browsers-icon.png" alt="Main browsers"
+                            style="float: left;"></td>
+
+                    <td>
+                        <p>Basic Support -</p>
+                        <ul>
+                            <li>Firefox 4+</li>
+                            <li>Google Chrome 6+</li>
+                            <li>Internet Explorer 9+</li>
+                            <li>Apple Safari 5.1+</li>
+                            <li>Opera 11.1+</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Default CSS Settings</h2>
+            <p>Most browsers will display the <code class="w3-codespan">&lt;figure&gt;</code> element with the
+                following
+                default values:</p>
+            <div class="w3-example">
+                <strong>Example</strong><br />
+                <div>
+                    figure { <br>&nbsp; display: block;<br>&nbsp; margin-top: 1em;<br>&nbsp; margin-bottom: 1em;<br>
+                    &nbsp; margin-left: 40px;<br>&nbsp; margin-right: 40px;<br>} </div>
+                <a target="_blank" href=https://www.w3schools.com/tryit/ class="w3-btn w3-margin-bottom">Try
+                    it Yourself &raquo;</a>
+            </div>
+            <br>
+        </section>
+
+    </main>
+
+    <footer style="font-size: x-small;background-color: black;color: white;text-align: center;">
+        <p> &copy;ITGIRLSCHOOL</p>
+        <p>Школа IT-профессий для девушек</p>
+        <p>Contact information:
+            <a href="mailto:questions@itgirlschool.ru">questions@itgirlschool.ru</a>
+        </p>
+        <img src="https://thumb.tildacdn.com/tild3830-6462-4765-b738-653735313730/-/resize/110x/-/format/webp/logo_white.png"
+            alt="Itgirlschool logo">
+        <p><a href="about.html">About</a> -
+            <a href="policy.html">Privacy Policy</a> -
+            <a href="contact.html">Contact Us</a> -
+            <a href="disclosure.html">Disclosure and Privacy Policy</a></p>
+
+    </footer>
+
+</body>
+
+</html>
