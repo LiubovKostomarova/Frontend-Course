@@ -1,0 +1,179 @@
+body {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    background-color: rgba(15, 72, 124, 0.87);
+    color: white;
+    height: 100vh;
+    margin: 0%;
+}
+aside {
+    width: 38%;
+    float: right;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 20vw;
+    font-size: 60px;
+
+}
+
+h2 {
+    margin-top: 10px;
+    margin-left: 9vw;
+    font-size: 60px;
+    background-color: rgb(24, 63, 88);
+    background-size: 10%;
+
+}
+
+label {
+    background: rgb(53, 90, 114);
+    margin-left: 20px;
+    font-size: large;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url(/Frontend-Course/Week4/Assets/Images/background_494471.jpg);
+    width: 100%;
+    min-height: 380px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin-bottom: 0%;
+    width: auto;
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+
+    color: black;
+}
+
+#firstarticle {
+    float: left;
+    width: 55%;
+    padding: 10px;
+}
+
+#secondarticle {
+    float: right;
+    width: 39%;
+    padding: 10px
+}
+
+
+
+#thirdsection {
+    margin: 100px;
+
+}
+
+#bluebackground {
+    position: relative;
+}
+
+
+#bluebackground {
+    width: 100%;
+}
+
+
+#handandglobe,
+#laptop,
+#globe {
+    width: 30%;
+    height: 25%;
+    margin: 0;
+
+}
+
+#handandglobe {
+    margin-left: 5%;
+}
+
+.firsttable {
+    text-align: left;
+    border: solid 2px white;
+
+    font-size: 15px;
+}
+
+li {
+    padding: 10px;
+    color: rgb(166, 167, 202)
+}
+
+.tabular {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    color: rgb(11, 21, 80);
+    background-size: cover;
+
+}
+
+.table td,
+.table th,
+.tabular td,
+.tabular th {
+    padding: 8px;
+    border: 3px solid rgb(116, 112, 112);
+    vertical-align: text-top
+}
+
+.table .table,
+.tabular .tabular {
+    font-size: 16px
+}
+
+.tabular th {
+    background: #eee;
+    color: currentColor;
+    font-weight: 400
+}
+
+.charset-ref {
+    font-size: 14px
+}
+
+.charset-ref tr>td:first-child {
+    font-size: 2em;
+    text-align: center
+}
