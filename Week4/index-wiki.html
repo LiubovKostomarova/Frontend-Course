@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Frontend-Course/Week4/Assets/Images/wikiicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link href="/Frontend-Course/Week4/Styles/Normalize.css" rel="normalizesheet">
+   <link href="/Frontend-Course/Week4/Styles/Style-Wiki.css" rel="stylesheet">
+    <title>HTML input Tag</title>
+</head>
+
+<body>
+    <main>
+        <div class="bg-img">
+            <div class="container">
+                <nav class="topnav">
+
+                    <a href="home.html">Home</a>
+                    <a href="forum.html">Forum</a>
+                    <a href="tags.html">Other Tags</a>
+                    <a href="contribution.html">Contribute to our knowledgebase</a>
+                </nav>
+
+                <form id="search">
+                    <label for id="search">What are you looking for?</label>
+                    <input type="search" id="search">
+                    <input type="submit">
+                </form>
+                <h1>New in Frontend Development?</br> Wanna know more about tags?</h1>
+                </br>
+                <h2>HTML Input Tag</h2>
+            </div>
+        </div>
+
+        <img src="/Frontend-Course/Week4/Assets/Images/handandglobe.jpg" alt="handandglobe" id="handandglobe">
+        <img src="/Frontend-Course/Week4/Assets/Images/logolaptop.jpg" alt="laptop" id="laptop">
+        <img src="/Frontend-Course/Week4/Assets/Images/globe.jpg" alt="globe" id="globe">
+
+        <section id="firstsection">
+            <article id="firstarticle">
+                <h3>Definition and Usage </h3>
+                <p>In HTML, the <strong>input</strong> field can be specified using <span>where a user can enter
+                        data</span>. The
+                    <strong>input</strong>
+                    tag is used within <strong><code>&lt;form&gt;</code></strong> element to declare input controls that
+                    allow users to input
+                    data. An input field can be of various types depending upon the attribute type. The Input tag is an
+                    empty
+                    element which only contains attributes. For defining labels for the input element,
+                    <code>&lt;label&gt;</code> can be used.</p>
+                <p>The <strong> <code>&lt;input&gt;</code></strong> element can be displayed in several ways, depending
+                    on the type
+                    attribute.</p>
+
+                <p> The different input types are as follows:
+                    <table class="firsttable">
+                        <tr>
+                            <th>
+                                <ul>
+                                    <li><input type="button" class="list"></br> <code>&lt;input type="button"&gt;</code>
+                                    </li>
+                                    <li><input type="checkbox" class="list"></br><code>&lt;input
+                                            type="checkbox"&gt;</code></li>
+                                    <li><input type="color" class="list"></br><code>&lt;input type="color"&gt;</code>
+                                    </li>
+                                    <li><input type="date" class="list"></br><code>&lt;input type="date"&gt;</code></li>
+                                    <li><input type="datetime-local" class="list"></br><code>&lt;input
+                                            type="datetime-local"&gt;</code></li>
+                                    <li><input type="email" class="list"></br><code>&lt;input type="email"&gt;</code>
+                                    </li>
+                                    <li><input type="file" class="list"></br><code>&lt;input type="file"&gt;</code></li>
+                                    <li><input type="hidden" class="list"></br><code>&lt;input type="hidden"&gt;</code>
+                                    </li>
+                                    <li><input type="image" class="list"></br><code>&lt;input type="image"&gt;</code>
+                                    </li>
+                                    <li><input type="month" class="list"></br><code>&lt;input type="month"&gt;</code>
+                                    </li>
+                                    <li><input type="number" class="list"></br><code>&lt;input type="number"&gt;</code>
+                                    </li>
+                                </ul>
+                            </th>
+                            <th>
+                                <ul class="firsttable">
+                                    <li><input type="password" class="list"></br><code>&lt;input
+                                            type="password"&gt;</code></li>
+                                    <li><input type="radio" class="list"></br><code>&lt;input type="radio"&gt;</code>
+                                    </li>
+                                    <li><input type="range" class="list"></br><code>&lt;input type="range"&gt;</code>
+                                    </li>
+                                    <li><input type="reset" class="list"></br><code>&lt;input type="reset"&gt;</code>
+                                    </li>
+                                    <li><input type="search" class="list"></br><code>&lt;input type="search"&gt;</code>
+                                    </li>
+                                    <li><input type="submit" class="list"></br><code>&lt;input type="submit"&gt;</code>
+                                    </li>
+                                    <li><input type="tel" class="list"></br><code>&lt;input type="tel"&gt;</code></li>
+                                    <li><input type="text" class="list"></br><code>&lt;input type="text"&gt;</code>
+                                        (default value)</li>
+                                    <li><input type="time" class="list"></br><code>&lt;input type="time"&gt;</code></li>
+                                    <li><input type="url" class="list"></br><code>&lt;input type="url"&gt;</code></li>
+                                    <li><input type="week" class="list"></br><code>&lt;input type="week"&gt;</code></li>
+                                </ul>
+                            </th>
+                        </tr>
+                    </table>
+                </p>
+            </article>
+
+        </section>
+
+        <article id="secondarticle">
+            <p>
+                Here's a basic example of the syntax for the <code>&lt;input&gt;</code> tag with some attributes:</br>
+                <b><code>&lt;input type="text" name="fcolor" value="Blue"&gt;</code></b>
+            </p>
+            <p>Here's an example that contains three <code>&lt;input&gt;</code> elements within a typical form:</br>
+                <code>&lt;form action="process_form.cfm" method="get"&gt;</code></br>
+                <code>&lt;label&gt;</code>First Name:<b><code>&lt;input
+                        name="first_name"&gt;</code></b><code>&lt;/label&gt;</code></br>
+                <code>&lt;label&gt;</code>Last Name:<b><code>&lt;input
+                        name="last_name"&gt;</code></b><code>&lt;/label&gt;</code></br>
+                <b><code>&lt;input type="submit" value="Submit"&gt;</code></b>
+                <code>&lt;/form&gt;</code></br>
+
+                <form action="process_form.cfm" method="get">
+                    <label>First Name: <input name="first_name"></label></br>
+                    <label>Last Name: <input name="last_name"></label></br>
+                    <input type="submit" value="Submit">
+                </form>
+            </p>
+        </article>
+        </section>
+        <aside>
+            <h3>Radio buttons </h3>
+            <p>
+                In this example, we create radio buttons. We do this by giving the <code>type</code> attribute a value
+                of radio. Each radio button in a group must have the same <code>name</code> value - that's how they are
+                associated. The <code>value</code> is what distinguishes the different options.
+            </p>
+            <p>Which smartphone do you prefer?</p>
+            <form>
+                <label><input type="radio" name="smartphone" value="iPhone">iPhone</label>
+                <label><input type="radio" name="smartphone" value="Samsung">Samsung</label>
+                <label><input type="radio" name="smartphone" value="other">I am actually a fan of old models, so I would
+                    never betray my Nokia!</label>
+            </form>
+            </p>
+        </aside>
+        <section id="thirdsection">
+            <h3>Attributes </h3>
+            <p> The Attributes can be added to an HTML element to provide more information about how the element should
+                appear or behave.
+                </br>
+                The <code>&lt;input&gt;</code> element accepts a lot of attributes. Some of them are listed below:
+            </p>
+            <table class="tabular">
+                <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><code>accept</code></td>
+                    <td>Specifies a comma-separated list of content types that the server accepts.
+                        <p>Possible values:</p>
+                        <ul>
+                            <li><code>audio/*</code></li>
+                            <li><code>video/*</code></li>
+                            <li><code>image/*</code></li>
+                            <li><i>[A valid MIME type, with no parameters]</i></li>
+                            <li><i>[A string whose first character is a (U+002E) FULL STOP character]</i> (for
+                                specifying a file extension)</li>
+                        </ul>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>alt</code></td>
+                    <td>Alternate text. This specifies text to be used in case the browser/user agent can't render the
+                        input control.</td>
+                </tr>
+                <tr>
+                    <td><code>autocomplete</code></td>
+                    <td>Prevents the browser from using "autocomplete" with this control. Can be useful for sensitive
+                        data, such as banking details etc.
+                        <p>Possible values:</p>
+                        <ul>
+                            <li><code>on</code> (default value)</li>
+                            <li><code>off</code></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>autofocus</code></td>
+                    <td>Automatically gives focus to this control when the page loads. This allows the user to start
+                        using the control without having to select it first. There must not be more than one element in
+                        the document with the autofocus attribute specified.</p>
+                        <p>This is a boolean attribute. If the attribute is present, its value must either be the empty
+                            string or a value that is an ASCII case-insensitive match for the attribute's canonical
+                            name, with no leading or trailing whitespace (i.e. either <code>autofocus</code> or
+                            <code>autofocus="autofocus"</code>).</p>
+                        <p>Possible values:</p>
+                        <ul>
+                            <li><i>[Empty string]</i></li>
+                            <li><code>autofocus</code></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code>checked</code></td>
+                    <td>The input control will already be selected when the page loads. Used with
+                        <code>type="radio"</code> or <code>type="checkbox"</code>.</td>
+                </tr>
+                <tr>
+                    <td><code>disabled</code></td>
+                    <td>Disables the input control. The control won't accept changes from the user. It also cannot
+                        receive focus and will be skipped when tabbing.
+                        <p>This is a boolean attribute. If the attribute is present, its value must either be the empty
+                            string or a value that is an ASCII case-insensitive match for the attribute's canonical
+                            name, with no leading or trailing whitespace (i.e. either <code>disabled</code> or
+                            <code>disabled="disabled"</code>).</p>
+                        <p>Possible values:</p>
+                        <ul>
+                            <li><i>[Empty string]</i></li>
+                            <li><code>disabled</code></li>
+                        </ul>
+                    </td>
+                </tr>
+        </section>
+        
+    </main>
+
+    
+
+</body>
+
+</html>
