@@ -1,0 +1,185 @@
+header,
+footer {
+    flex: 0 0 content;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    background: url(/Assets/Images/Wallpaper_light.jpg);
+    width: 100%;
+}
+
+header.header-container {
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    padding-top: 20px;
+    margin: 0;
+    background-image: url(/Frontend-Course/Week5/Assets/Images/Wallpaper_header.jpg);
+    background-position: left;
+    color: white;
+}
+
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(97, 145, 212);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+    text-align: center;
+}
+
+p,
+ul {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+    line-height: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.nav-container {
+    width: 10%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section {
+    flex: 2;
+    margin: 40px;
+    width: 30%;
+}
+
+aside {
+    width: 25%;
+    flex: 1;
+    margin: 25px;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(174, 208, 240);
+}
+
+footer {
+    background-color: rgb(181, 210, 241);
+}
+
+a.nav {
+    text-decoration: none;
+    color: rgb(19, 86, 112);
+    font-family: 'Playfair Display', serif;
+
+}
+
+a:hover {
+    color: rgb(201, 62, 85);
+}
+
+button {
+    width: 60px;
+    height: 20px;
+}
+
+
+iframe {
+    width: 40vw;
+    height: 40vh;
+}
+
+figcaption {
+    background-color: rgb(95, 168, 236);
+    color: white;
+    width: 160px;
+    text-align: center;
+
+}
+
+.gifimage,
+.studyimage {
+    width: 100%;
+}
+
+mark {
+    background-color: #6c8ebb;
+}
+
+.ribbon-highlight {
+    position: relative;
+    margin: 0.1em;
+}
+
+.ribbon-highlight:before {
+    content: "";
+    z-index: -1;
+    left: -0.5em;
+    top: 0.1em;
+    bottom: -0.1em;
+    border-width: 0.6em;
+    border-style: solid;
+    border-color: rgba(63, 97, 207, 0.808);
+    position: absolute;
+    width: 100%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.sketch-highlight {
+    position: relative;
+}
+
+.sketch-highlight:before {
+    content: "";
+    z-index: -1;
+    left: 0em;
+    top: 0em;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkblue;
+    position: absolute;
+    border-right-color: transparent;
+    width: 100%;
+    height: 1em;
+    transform: rotate(2deg);
+    opacity: 0.5;
+    border-radius: 0.25em;
+}
+
+.sketch-highlight:after {
+    content: "";
+    z-index: -1;
+    left: 0em;
+    top: 0em;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkblue;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 1em;
+    transform: rotate(-1deg);
+    opacity: 0.5;
+    border-radius: 0.25em;
+}
