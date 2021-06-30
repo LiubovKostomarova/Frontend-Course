@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-flow: column;
+
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    
+    justify-content: flex-end;
+    text-align: center;
+    padding: 10px;
+}
+
+header,
+footer {
+        background-color: silver;
+}
+
+section {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    height: 250px;
+    
+    text-align: center;
+        background-color: rgb(230, 202, 114);
+        justify-content:flex-end;
+        align-content: space-between;
+  
+}
+p {
+   margin-top: 0;
+   margin-bottom: 30px;
+}
+
+.mainarticle {
+    display: inline-flex;
+        padding: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.thirdarticle {
+    
+    align-items: flex-end;
+    padding: 20px;
+    margin: 10px 20px;
+    text-align: center;
+    
+    background-color: orange;
+
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+
+div {
+    
+    padding: 20px 30px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+div#firstdiv {
+    display: flex;
+    flex-grow: 1;
+    background-color: orange;
+    margin-right: 20px;
+    align-self: center;
+    text-align: center;
+}
+
+div#seconddiv {
+    display: flex;
+    flex-grow: 1;
+    align-self: center;
+    background-color: orange;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+div.footersection {
+    display: flex;
+    flex-grow: 1;
+    background-color: whitesmoke;
+    margin-right: 20px;
+    
+    justify-content: center;
+}

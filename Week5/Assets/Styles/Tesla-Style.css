@@ -1,247 +1,247 @@
-               main {
-            flex: 1;
-            display: flex;
-            flex-direction: row;
-            background: url(/Frontend-Course/Week5/Assets/Images/Tesla3.PNG);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background: url(/Frontend-Course/Week5/Assets/Images/Tesla3.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-        }
+}
 
-        header {
-            height: 100%;
-        }
+header {
+    height: 100%;
+}
 
-        header,
-        footer {
-            flex: 0 0 content;
-        }
-
-
-        body {
-            display: flex;
-            flex-flow: column;
-            min-height: 100vh;
-
-        }
-
-        section {
-            display: flex;
-            flex-flow: column;
-            width: 70%;
-            margin: 0 20px 0 0;
-            padding: 0 25px 0 25px;
+header,
+footer {
+    flex: 0 0 content;
+}
 
 
-        }
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
 
-        aside {
-            width: 30%;
-            padding: 25px;
-          
-        }
+}
 
-
-        h1 {
-            font-family: 'Cinzel', serif;
-            font-size: 70px;
-
-            margin: 0;
-            padding-left: 25px;
-        }
-
-        h2 {
-            font-family: 'Cinzel', serif;
-            font-size: 30px;
-
-            margin: 0;
-            padding-left: 25px;
-        }
-
-        h3,
-        h4 {
-            margin: 20px;
-            font-family: 'Cinzel Decorative', cursive;
-        }
+section {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    margin: 0 20px 0 0;
+    padding: 0 25px 0 25px;
 
 
-        .menu {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            padding-left: 25px;
-        }
+}
 
-        a {
-            text-decoration: none;
-            color: black;
-            padding-right: 50px;
-        }
-
-        .mainparagraph {
-            line-height: 30px;
-            font-size: 18px;
-        }
-
-        .sectionarticle {
-            flex: 1;
-
-        }
-
-        .sectionarticle:nth-of-type(3) {
-            flex: 3;
-            display: flex;
-            flex-flow: row;
-            align-content: space-around;
-            box-sizing: border-box;
-            align-items: flex-start;
-            background-color: rgba(224, 203, 203, 0.541);
-            padding-left: 25px;
-        }
-
-        div {
-            flex: 1;
-            align-items: center;
-            justify-content: space-between;
-            padding-right: 25px;
- 
-        }
-
-        .teslapic {
-            border-radius: 10px;
-            max-width: 100%;
-            height: auto;
-        }
-
-        #lastparagraph {
-            margin-top: 120vh;
-        }
-
-        .footer-distributed {
-
-            box-sizing: border-box;
-            width: 100%;
-            text-align: left;
-            font-family: 'Cinzel', serif;
-            padding-top: 25px;
-        }
-
-        .footer-distributed .footer-left,
-        .footer-distributed .footer-center,
-        .footer-distributed .footer-right {
-            display: inline-block;
-            vertical-align: top;
-        }
-
-        .footer-distributed .footer-left {
-            width: 40%;
-        }
-
-        .footer-distributed h3 {
-            color: black;
-            font-family: 'Cinzel Decorative', cursive;
-            margin: 0;
-        }
-
-        .footer-distributed h3 span {
-            color: #435986;
-        }
+aside {
+    width: 30%;
+    padding: 25px;
+  
+}
 
 
-        .footer-distributed .footer-links {
-            color: black;
-            margin: 20px 0 12px;
-            padding: 0;
-        }
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 70px;
 
-        .footer-distributed .footer-links a {
-            display: inline-block;
-            line-height: 1.8;
-            text-decoration: none;
-            color: inherit;
-        }
+    margin: 0;
+    padding-left: 25px;
+}
 
-        .footer-distributed .footer-company-name {
-            color: #4d4d4e;
-            font-size: 14px;
-            font-weight: normal;
-            margin: 0;
-        }
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
 
+    margin: 0;
+    padding-left: 25px;
+}
 
-        .footer-distributed .footer-center {
-            width: 35%;
-        }
+h3,
+h4 {
+    margin: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+}
 
 
-        .footer-distributed .footer-center i.fa-envelope {
-            font-size: 17px;
-            line-height: 38px;
-        }
+.menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
 
-        .footer-distributed .footer-center p {
-            display: inline-block;
-            color: black;
-            vertical-align: middle;
-            margin: 0;
-        }
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 50px;
+}
 
-        .footer-distributed .footer-center p span {
-            display: block;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 2;
-        }
+.mainparagraph {
+    line-height: 30px;
+    font-size: 18px;
+}
 
-        .footer-distributed .footer-center p a {
-            color: #435986;
-            text-decoration: none;
-            ;
-        }
+.sectionarticle {
+    flex: 1;
 
-        .footer-distributed .footer-right {
-            width: 20%;
-        }
+}
 
-        .footer-distributed .footer-company-about {
-            line-height: 20px;
-            color: #435986;
-            font-size: 13px;
-            font-weight: normal;
-            margin: 0;
-        }
+.sectionarticle:nth-of-type(3) {
+    flex: 3;
+    display: flex;
+    flex-flow: row;
+    align-content: space-around;
+    box-sizing: border-box;
+    align-items: flex-start;
+    background-color: rgba(224, 203, 203, 0.541);
+    padding-left: 25px;
+}
 
-        .footer-distributed .footer-company-about span {
-            display: block;
-            color: black;
-            font-size: 15px;
-            font-weight: bold;
-            margin-top: 20px;
-            margin-bottom: 5px;
-        }
+div {
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
 
-        .footer-distributed .footer-icons {
-            margin-top: 5px;
-        }
+}
+
+.teslapic {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#lastparagraph {
+    margin-top: 120vh;
+}
+
+.footer-distributed {
+
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    padding-top: 25px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+.footer-distributed h3 {
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: #435986;
+}
 
 
-        @media (max-width: 880px) {
+.footer-distributed .footer-links {
+    color: black;
+    margin: 20px 0 12px;
+    padding: 0;
+}
 
-            .footer-distributed {
-                font: bold 14px sans-serif;
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
 
-            }
+.footer-distributed .footer-company-name {
+    color: #4d4d4e;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
 
-            .footer-distributed .footer-left,
-            .footer-distributed .footer-center,
-            .footer-distributed .footer-right {
-                display: block;
-                width: 100%;
-                margin-bottom: 40px;
-                text-align: center;
-            }
 
-            .footer-distributed .footer-center i {
-                margin-left: 0;
-            }
-        }
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #435986;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #435986;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 5px;
+}
+
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
