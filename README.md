@@ -8,3 +8,11 @@ Week5:
 5) Link to Figma template:
 https://www.figma.com/file/aIEteGtMB9yunMumDtPUMZ/Landing-Page-Concept-For-Data-Processing-Company-(Copy)?node-id=0%3A1
 5) Wiki-страничка находится в папке \Week5\Assets\Others. По ней же сверстана страница, скриншоты к которой можно найти в папке \Week5\Assets\Others
+
+Week6:
+1) Questions answered. File is here:
+2) Game done. Screenshot is here:
+3) CSS Grid template done. Code is here: Screenshot here:
+4) Figma page created. Code is here: Screenshot is here:
+Link to Figma template:
+https://www.figma.com/file/ebqblHvq40LNUtr5hKzztB/Hotel-Booking-Freebie?node-id=0%3A1
