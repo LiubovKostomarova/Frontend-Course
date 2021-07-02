@@ -1,0 +1,481 @@
+header {
+    grid-area: hd;
+}
+
+.footer-container {
+    grid-area: ft;
+}
+
+div.content-1 {
+    grid-area: ct-1;
+}
+
+div.content-2 {
+    grid-area: ct-2;
+}
+
+div.content-3 {
+    grid-area: ct-3;
+}
+
+div.content-4 {
+    grid-area: ct-4;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr auto auto auto 0.5fr;
+    grid-template-areas:
+        "hd hd"
+        "ct-1 ct-1"
+        "ct-2 ct-2"
+        "ct-3 ct-3"
+        "ft ft";
+}
+
+.wrapper-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 900px 1.5fr;
+}
+
+header.header-flexcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 4rem;
+}
+
+div#firstnav {
+    background-color: #F5FAFE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 530px 24px 100px;
+}
+
+div#secondnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 51px;
+    margin-bottom: 45px;
+    padding-left: 100px;
+}
+
+img#giftbox {
+    margin-left: auto;
+}
+
+div#phonenumber,
+div#giftcard,
+div#loyalty {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+div#agencyname {
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 238px;
+    margin-left: 0px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+    .search-container {
+        float: none;
+    }
+}
+
+form#search {
+    margin-left: 108px;
+}
+
+input#searchfield {
+    width: 350px;
+    height: 40px;
+    background: #F5FAFE;
+    border-radius: 6px;
+}
+
+button#submit {
+    width: 65px;
+    height: 40px;
+    left: 735px;
+    top: 100px;
+    background: #EC1F46;
+    border-radius: 0px 6px 6px 0px;
+}
+
+div.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+img#shoppingcart {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+}
+
+img#pinkcircle {
+    position: absolute;
+    bottom: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+img#shoppingcart {
+    margin-left: auto;
+}
+
+img#userimage {
+    margin-left: 63px;
+    margin-right: 18px;
+}
+
+div#username {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+    margin-right: 24px;
+}
+
+nav.thirdnav {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-color: #0A223D;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 100px;
+}
+
+.thirdnav a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav.fourthnav {
+    background: #F5FAFE;
+    margin-top: 18px;
+    margin-right: 19px;
+    padding-left: 100px;
+}
+
+.fourthnav a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height */
+
+    color: #0A223D;
+    text-decoration: none;
+}
+
+h1#hotelname {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 14px;
+    display: inline-block;
+    margin: 0;
+    padding-left: 100px;
+}
+
+p#hotelconditions {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    margin: 0;
+    margin-left: 100px;
+}
+
+img#hotelstars {
+    width: 48px;
+    height: 8px;
+    grid-row: 1 / 1;
+    grid-column: 1 / 2;
+    align-self: flex-end;
+    padding-left: 100px;
+}
+
+img#flashoffer {
+    display: inline-block;
+}
+
+div#hotel {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    margin: 0;
+    align-self: center;
+}
+
+img#ratings {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    padding-left: 310px;
+}
+
+img#beach {
+    display: flex;
+    width: 728px;
+    height: 450px;
+}
+
+img#booking {
+    display: flex;
+    width: 350px;
+    height: 210px;
+}
+
+img#map {
+    display: flex;
+    width: 347px;
+    height: 213px;
+}
+
+div.content-1 {
+    padding-left: 100px;
+    padding-right: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightcolumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.content-2 a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+    /* Gray 1 */
+    color: #333333;
+    text-decoration: none;
+}
+
+a#pinkheader {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #EC1F46;
+    text-decoration: none;
+}
+
+.fourthnav a {
+    margin-right: 53px;
+}
+
+img#pinkline {
+    padding-left: 100px;
+}
+
+h1#summary {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    /* Gray 1 */
+    color: #333333;
+    padding-left: 165px;
+}
+
+h3.whiteheader,
+h3.whiteheader2 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    background: #0A223D;
+    border-radius: 4px 4px 0px 0px;
+    padding: 16px 0px 16px 24px;
+}
+
+div#summary-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+}
+
+div#summary1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 538px;
+    height: 200px;
+    margin-right: 32px;
+}
+
+div#summary2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 538px;
+    height: 200px;
+    padding-right: 530px;
+}
+
+ul {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+    list-style-type: none;
+    columns: 2;
+}
+
+ul li:before {
+    content: '✓ ';
+}
+
+div.content-3 {
+    display: grid;
+    grid-template-rows:
+        [row1-start] 80px [row2-start] auto [row3-start] auto [row-end];
+    grid-template-columns:
+        [main1-start main-2-start] 480px [main2-start main3-start] 480px [main3-start main-end] 480px;
+    padding-left: 100px;
+}
+
+#whiteheader2 {
+    grid-row: row1-start /row2-start;
+    grid-column: main1-start / main-end;
+}
+
+#maincolumn1 {
+    grid-row: row2-start / row3-start;
+    grid-column: main1-start / main2-start;
+}
+
+#maincolumn2 {
+    grid-row: row2-start / row3-start;
+    grid-column: main2-start / main3-start;
+}
+
+#maincolumn3 {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+
+#maincolumn4 {
+    grid-row: row3-start / row-end;
+    grid-column: main1-start / main2-start;
+}
+
+#maincolumn5 {
+    grid-row: row3-start / row-end;
+    grid-column: main2-start / main3-start;
+}
+
+#maincolumn6 {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+}
+
+h3.pinkheader {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #EC1F46;
+}
+
+ul.columnlist {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-image: url(/Frontend-Course/Week6/Assets/Images/Newsletter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

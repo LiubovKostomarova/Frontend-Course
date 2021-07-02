@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-1 {
+            display: grid;
+            min-height: 100vh;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .header {
+            grid-row: 1 / 2;
+            grid-column: 1 / 4;
+        }
+
+        .main {
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+        }
+
+        .sidebar {
+            grid-row: 2 / 3;
+            grid-column: 2 / 3;
+        }
+
+        .footer-container {
+            grid-row: 3 / 4;
+            grid-column: 1 / 3;
+        }
+
+        .main-container {
+            display: grid;
+            align-content: stretch;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 2fr 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .content-1 {
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+        }
+
+        .content-2 {
+            grid-row: 2 / 3;
+            grid-column: 2 / 3;
+        }
+
+        .content-3 {
+            grid-row: 3 / 4;
+            grid-column: 1 / 3;
+        }
+
+        .footer-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 4rem;
+        }
+
+        .header,
+        .main-container,
+        .sidebar,
+        .footer-container {
+            border: 1px solid red;
+        }
+
+        .content-1,
+        .content-2,
+        .content-3,
+        .footer-1,
+        .footer-2,
+        .footer-3,
+        .footer-4 {
+            border: 1px solid yellow;
+        }
+
+        #Image1_DevOpsGraphics,
+        #Image2_Connections {
+            max-width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-1">
+        <header class="header">
+            <nav>
+                <a href='https://de.wikipedia.org/wiki/DevOps'>DevOps in Wikipedia</a> |
+                <a href='https://opensource.com/article/19/5/values-devops-mindset'>DevOps mindset</a> |
+                <a href='https://www.atlassian.com/devops/what-is-devops/devops-culture'>DevOps culture</a> |
+                <a href='https://opensource.com/article/19/7/devops-vs-sysadmin'>From Sysadmin to DevOps</a> |
+                <a href='https://enterprisersproject.com/article/2020/1/devops-engineer-interview-questions-2020'>DevOps
+                    interview questions</a> |
+                <a href='https://enterprisersproject.com/article/2020/6/devops-beginners-where-start'>Start learning</a>
+                |
+                <a href='https://www.exin.com/devops/john-clipp-success-of-facebook-netflix-and-etsy/'>DevOps expert's
+                    opinion</a> |
+
+            </nav>
+            <h1>What is DevOps and why is it needed?</h1>
+            <h2>Why it is useful to work with DevOps, where to apply the technology and what tools are available.</h2>
+        </header>
+        <div class="main-container">
+            <img src="/Frontend-Course/Week6/Assets/Images/devops-grafik-aqua.png" alt="DevOpsGraphics"
+                id="Image1_DevOpsGraphics">
+            <h2>What is this technology</h2>
+            <p>The term DevOps is derived from the English words development and operations. It is an approach,
+                methodology and even culture and philosophy of the development process where programmers, testers and
+                system administrators can work on the product faster and more efficiently. The approach helps to reduce
+                errors in the handover of the project from developers to testers and sysadmins and to establish
+                communication between them. It is based on the idea that developing, testing and operating digital
+                products is a single, seamless and cyclical process.</p>
+            <img src="/Frontend-Course/Week6/Assets/Images/Image2.png" alt="DevOps_Connections" id="Image2_Connections">
+            <div class="content-1">Content-1
+            </div>
+            <div class="content-2">Content-2</div>
+            <div class="content-3">Content-3</div>
+        </div>
+        <aside class="sidebar">
+            <ol>
+                <li>What is this technology</li>
+                <li>The challenges of working without DevOps</li>
+                <li>How DevOps improves the development process</li>
+                <li>DevOps tools</li>
+                <li>Who to use it for and what to use it for</li>
+            </ol>
+        </aside>
+        <footer class="footer-container">
+            <div class="footer-1">Footer-1</div>
+            <div class="footer-2">Footer-2</div>
+            <div class="footer-3">Footer-3</div>
+            <div class="footer-4">Footer-4</div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
