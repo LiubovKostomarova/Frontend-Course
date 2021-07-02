@@ -10,9 +10,12 @@ https://www.figma.com/file/aIEteGtMB9yunMumDtPUMZ/Landing-Page-Concept-For-Data-
 5) Wiki-страничка находится в папке \Week5\Assets\Others. По ней же сверстана страница, скриншоты к которой можно найти в папке \Week5\Assets\Others
 
 Week6:
-1) Questions answered. File is here:
-2) Game done. Screenshot is here:
-3) CSS Grid template done. Code is here: Screenshot here:
-4) Figma page created. Code is here: Screenshot is here:
+1) Questions answered. File is here:https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week6/Other
+2) Game done. Screenshot is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week6/Other
+3) CSS Grid template done. Code is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week6 
+Screenshot here:https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week6/Assets/Screenshots
+5) Figma page created. Code is here:https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week6
+ Screenshot is here:https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week6/Assets/Screenshots
 Link to Figma template:
 https://www.figma.com/file/ebqblHvq40LNUtr5hKzztB/Hotel-Booking-Freebie?node-id=0%3A1
+6) Wiki-page is here: https://github.com/itgirlschool/wiki/wiki/Naming-and-Positioning-Items-by-Grid-Areas
