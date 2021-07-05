@@ -19,3 +19,7 @@ Screenshot here:https://github.com/LiubovKostomarova/Frontend-Course/tree/Master
 Link to Figma template:
 https://www.figma.com/file/ebqblHvq40LNUtr5hKzztB/Hotel-Booking-Freebie?node-id=0%3A1
 6) Wiki-page is here: https://github.com/itgirlschool/wiki/wiki/Naming-and-Positioning-Items-by-Grid-Areas
+
+Week7:
+Questions answered. File is here:
+Wiki-page is here: https://github.com/itgirlschool/wiki/wiki/Adaptive-vs.-Responsive-Design
