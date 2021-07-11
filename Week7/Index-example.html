@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(2, 100px);
+            color: whitesmoke;
+            font-size: xx-large;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container>div>img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #firstdiv {
+            background-color: pink;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #seconddiv {
+            background-color: rgb(165, 142, 184);
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #thirddiv {
+            background-color: rgb(49, 236, 96);
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #fourthdiv {
+            background-color: rgb(211, 153, 99);
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #fifthdiv {
+            background-color: rgb(123, 176, 224);
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        #sixthdiv {
+            background-color: rgb(247, 65, 110);
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="firstdiv"><img src="/Frontend-Course/Week7/Assets/Images/1.jpg"></div>
+        <div id="seconddiv"><img src="/Frontend-Course/Week7/Assets/Images/2.jpg"></div>
+        <div id="thirddiv"><img src="/Frontend-Course/Week7/Assets/Images/3.jpg"></div>
+        <div id="fourthdiv"><img src="/Frontend-Course/Week7/Assets/Images/4.jpg"></div>
+        <div id="fifthdiv"><img src="/Frontend-Course/Week7/Assets/Images/5.jpg"></div>
+        <div id="sixthdiv"><img src="/Frontend-Course/Week7/Assets/Images/6.jpg"></div>
+    </div>
+</body>
+
+</html>

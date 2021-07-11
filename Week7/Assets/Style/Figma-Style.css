@@ -1,0 +1,1384 @@
+header {
+    grid-area: hd;
+}
+
+div.content-1 {
+    grid-area: ct-1;
+}
+
+div.content-2 {
+    grid-area: ct-2;
+}
+
+div.content-3 {
+    grid-area: ct-3;
+}
+
+div.content-4 {
+    grid-area: ct-4;
+}
+
+.rightcolumn {
+    grid-area: rightcolumn;
+}
+
+header.header-flexcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+img#giftbox {
+    margin-left: auto;
+}
+
+div#phonenumber,
+div#giftcard,
+div#loyalty {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+div#giftcard {
+    margin-right: 98.75px;
+}
+
+div#agencyname {
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+input#searchfield {
+    width: 100%;
+    height: 100%;
+    background: #F5FAFE;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+div.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+}
+
+img#shoppingcart {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+}
+
+img#pinkcircle {
+    position: absolute;
+    bottom: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+img#shoppingcart {
+    margin-left: auto;
+}
+
+img#userimage {
+    margin-left: 63px;
+    margin-right: 18px;
+}
+
+div#username {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+    margin-right: 24px;
+}
+
+.thirdnav a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+h1#hotelname {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 14px;
+    display: inline-block;
+    margin: 0;
+    padding-left: 50px;
+}
+
+p#hotelconditions {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    margin: 0;
+    margin-left: 50px;
+}
+
+img#hotelstars {
+    width: 48px;
+    height: 8px;
+    grid-row: 1 / 1;
+    grid-column: 1 / 2;
+    align-self: flex-end;
+    padding-left: 50px;
+}
+
+div#hotel {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: center;
+}
+
+img#flashoffer {
+    width: 70px;
+    height: 20px;
+    padding-left: 50px;
+}
+
+img#ratings {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    justify-self: self-end;
+    padding-left: 50px;
+}
+
+div.content-1 {
+    padding-left: 50px;
+    width: 80%;
+}
+
+img#beach {
+    width: 100%;
+    max-width: 100%;
+}
+
+img#booking {
+    display: flex;
+    max-width: 70%;
+    padding-left: 50px;
+}
+
+img#map {
+    display: flex;
+    max-width: 70%;
+    padding-left: 50px;
+}
+
+nav.fourthnav {
+    background: #F5FAFE;
+    margin-top: 18px;
+    margin-right: 19px;
+    padding-left: 50px;
+}
+
+.fourthnav a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height */
+
+    color: #0A223D;
+    text-decoration: none;
+}
+
+.content-2 a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+    /* Gray 1 */
+    color: #333333;
+    text-decoration: none;
+}
+
+a#pinkheader {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #EC1F46;
+    text-decoration: none;
+}
+
+.fourthnav a {
+    margin-right: 53px;
+}
+
+img#pinkline {
+    padding-left: 50px;
+}
+
+h3#whiteheader2 {
+    grid-area: header;
+}
+
+div.maincolumn1 {
+    grid-area: cell1;
+}
+
+div.maincolumn2 {
+    grid-area: cell2;
+}
+
+div.maincolumn3 {
+    grid-area: cell3;
+}
+
+div.maincolumn4 {
+    grid-area: cell4;
+}
+
+div.maincolumn5 {
+    grid-area: cell5;
+}
+
+div.maincolumn6 {
+    grid-area: cell6;
+}
+
+h1#summary {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    /* Gray 1 */
+    color: #333333;
+    padding-left: 165px;
+}
+
+h3.whiteheader,
+h3.whiteheader2 {
+    width: 100%;
+    display: inline;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    background: #0A223D;
+    border-radius: 4px 4px 0px 0px;
+    padding: 16px 0px 16px 24px;
+}
+
+div#summary-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+div#summary1 {
+    display: flex;
+    flex-direction: column;
+    width: 538px;
+    height: 200px;
+    margin-right: 32px;
+}
+
+div#summary2 {
+    display: flex;
+    flex-direction: column;
+    width: 538px;
+    height: 200px;
+    padding-right: 530px;
+}
+
+ul {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+    list-style-type: none;
+    columns: 2;
+}
+
+ul li:before {
+    content: '✓ ';
+}
+
+h3.pinkheader {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #EC1F46;
+}
+
+ul.columnlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.packages-container {
+    display: grid;
+    grid-template-columns: 366px auto 350px;
+    grid-template-rows: 260px 250px 250px 250px;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.img.container>img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+#palms {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    margin-bottom: 30px;
+}
+
+#bluehaven {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#bellemarepic {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+#bellemareinfo {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    margin-bottom: 30px;
+}
+
+#whitepalacepic {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+#whitepalaceinfo {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+#luxurypalacepic {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin-right: 30px;
+}
+
+#luxurypalaceinfo {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+#fivestarpic {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+#fivestarinfo {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+h2.bigtitle {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+#bellemareinfo,
+#whitepalaceinfo,
+#luxurypalaceinfo,
+#fivestarinfo {
+    position: relative;
+    padding-left: 32px;
+    background: #0A223D;
+    border-radius: 0px 0px 8px 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+#whitepalaceinfo,
+#luxurypalaceinfo,
+#fivestarinfo {
+    width: 318px;
+}
+
+#bellemareinfo {
+    margin-bottom: 10px;
+}
+
+button.booknow {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background: #EC1F46;
+    border-radius: 4px;
+    left: 175px;
+    bottom: 75px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+p.oldprice {
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-decoration-line: line-through;
+}
+
+p.newprice {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+aside {
+    grid-area: aside;
+    text-align: center;
+    margin-top: 110px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 12% auto auto auto auto auto 5%;
+        grid-template-areas:
+            "hd hd"
+            "ct-1 rightcolumn"
+            "ct-2 ct-2"
+            "ct-3 ct-3"
+            "ct-4 ct-4"
+            "aside aside"
+            "ft ft";
+    }
+
+    div#firstnav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #F5FAFE;
+        padding: 24px 50px 24px 50px;
+    }
+
+    div#secondnav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 51px;
+        margin-bottom: 45px;
+        padding-left: 50px;
+    }
+
+    form#search {
+        display: flex;
+        width: 40%;
+        height: 40px;
+        margin-left: 108px;
+    }
+
+    .search-container button {
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-left: 0px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    button#submit {
+        width: 20%;
+        height: 100%;
+        background: #EC1F46;
+        border-radius: 0px 6px 6px 0px;
+        box-sizing: border-box;
+    }
+
+    nav.thirdnav {
+        display: flex;
+        padding-top: 31px;
+        padding-bottom: 31px;
+        background-color: #0A223D;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 50px;
+    }
+
+    .wrapper-2 {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 70% 30%;
+    }
+
+    div#summary-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 50px;
+    }
+
+    div#summary1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        margin-right: 0;
+    }
+
+    div#summary2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        padding-right: 50px;
+    }
+
+    div.rightcolumn {
+        grid-area: rightcolumn;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 0 1 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div.content-3 {
+        display: grid;
+        grid-template-rows:
+            [row1-start] 80px [row2-start] auto [row3-start] auto [row-end];
+        grid-template-columns:
+            [main1-start main-2-start] 480px [main2-start main3-start] 480px [main3-start main-end] 480px;
+        grid-template-areas: "header header header"
+            "cell1 cell2 cell3"
+            "cell4 cell5 cell6";
+        padding-left: 50px;
+    }
+
+    #whiteheader2 {
+        grid-row: row1-start /row2-start;
+        grid-column: main1-start / main-end;
+        grid-area: header;
+    }
+
+    #maincolumn1 {
+        grid-row: row2-start / row3-start;
+        grid-column: main1-start / main2-start;
+        grid-area: cell1;
+    }
+
+    #maincolumn2 {
+        grid-row: row2-start / row3-start;
+        grid-column: main2-start / main3-start;
+        grid-area: cell2;
+    }
+
+    #maincolumn3 {
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+        grid-area: cell3;
+    }
+
+    #maincolumn4 {
+        grid-row: row3-start / row-end;
+        grid-column: main1-start / main2-start;
+        grid-area: cell4;
+    }
+
+    #maincolumn5 {
+        grid-row: row3-start / row-end;
+        grid-column: main2-start / main3-start;
+        grid-area: cell5;
+    }
+
+    #maincolumn6 {
+        grid-row: 3 / 4;
+        grid-column: 3 / 4;
+        grid-area: cell6;
+    }
+
+    footer {
+        grid-area: ft;
+        height: 260px;
+        background: url(/Frontend-Course/Week7/Assets/Images/Mountains.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    img#grey {
+        opacity: 0.8;
+        max-width: 100%;
+        min-height: 100%
+    }
+
+    div#footer_div {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: 200px;
+        align-items: center;
+    }
+
+    p#subfooter {
+        width: 242px;
+        height: 75px;
+        margin-left: 200px;
+        margin-right: 139px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    span#newsletter {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    form#email_form {
+        display: flex;
+        margin-left: 70px;
+    }
+
+    input#query {
+        width: 350px;
+        height: 55px;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+
+    button#send_button {
+        background: #EC1F46;
+        width: 65px;
+        height: 55px;
+        border-radius: 0px 4px 4px 0px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .wrapper {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 12% auto auto auto auto auto 8%;
+        grid-template-areas:
+            "hd hd"
+            "ct-1 rightcolumn"
+            "ct-2 ct-2"
+            "ct-3 ct-3"
+            "ct-4 ct-4"
+            "aside aside";
+    }
+
+    div#firstnav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 50px 24px 50px;
+    }
+
+    div#giftcard {
+        margin-right: 0;
+    }
+
+    img#giftbox {
+        margin-left: 0;
+        width: 20px;
+    }
+
+    img#starvector {
+        margin-left: 0;
+        width: 20px;
+    }
+
+    div#secondnav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 51px;
+        margin-bottom: 45px;
+        padding-left: 50px;
+    }
+
+    div#agencyname {
+        font-size: 18px;
+    }
+
+    form#search {
+        display: flex;
+        width: 40%;
+        height: 40px;
+        margin-left: 30px;
+    }
+
+    .search-container button {
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-left: 0px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input#searchfield {
+        width: 70%;
+        height: 70%;
+    }
+
+    button#submit {
+        width: 10%;
+        height: 70%;
+        background: #EC1F46;
+        border-radius: 0px 6px 6px 0px;
+        box-sizing: border-box;
+    }
+
+    div.parent {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: auto;
+    }
+
+    img#shoppingcart {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 24px;
+        height: 24px;
+    }
+
+    img#pinkcircle {
+        position: absolute;
+        bottom: 20px;
+        width: 20px;
+        height: 20px;
+    }
+
+    img#shoppingcart {
+        margin-left: auto;
+    }
+
+    img#userimage {
+        margin-left: 63px;
+        margin-right: 18px;
+    }
+
+    div#username {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+
+        /* Gray 1 */
+        color: #333333;
+        margin-right: 24px;
+    }
+
+    input#searchfield {
+        width: 75%;
+    }
+
+    nav.thirdnav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 31px;
+        padding-bottom: 31px;
+        background-color: #0A223D;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 50px;
+    }
+
+    .wrapper-2 {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+    }
+
+    img#hotelstars {
+        height: auto;
+    }
+
+    div#hotel {
+        height: auto;
+    }
+
+    p#hotelconditions {
+        height: auto;
+    }
+
+    img#flashoffer {
+        height: auto;
+    }
+
+    img#ratings {
+        height: auto;
+    }
+
+    img#beach {
+        max-width: 100%;
+    }
+
+    div.rightcolumn {
+        grid-area: rightcolumn;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div#summary-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 50px;
+    }
+
+    div#summary1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        margin-right: 0;
+    }
+
+    div#summary2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        padding-right: 50px;
+    }
+
+    div.content-3 {
+        display: grid;
+        grid-template-rows:
+            [row1-start] auto [row2-start] auto [row3-start] auto [row3-start] auto [row-end];
+        grid-template-columns:
+            50% 50%;
+        grid-template-areas: "header header"
+            "cell1 cell2"
+            "cell3 cell4"
+            "cell5 cell6";
+        padding-left: 50px;
+    }
+
+    #whiteheader2 {
+        grid-row: row1-start /row2-start;
+        grid-column: 1 / 3;
+        grid-area: header;
+
+    }
+
+    #maincolumn1 {
+        grid-row: row2-start / row3-start;
+        grid-column: 1 / 2;
+        grid-area: cell1;
+    }
+
+    #maincolumn2 {
+        grid-row: row2-start / row3-start;
+        grid-column: 2 / 3;
+        grid-area: cell2;
+    }
+
+    #maincolumn3 {
+        grid-row: row3-start / row4-start;
+        grid-column: 1 / 2;
+        grid-area: cell3;
+    }
+
+    #maincolumn4 {
+        grid-row: row3-start / row4-start;
+        grid-column: 2 / 3;
+        grid-area: cell4;
+    }
+
+    #maincolumn5 {
+        grid-row: row4-start / row-end;
+        grid-column: 1 / 2;
+        grid-area: cell5;
+    }
+
+    #maincolumn6 {
+        grid-row: row4-start / row-end;
+        grid-column: 2 / 3;
+        grid-area: cell6;
+    }
+
+    .packages-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto auto auto;
+        margin-left: 50px;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .img.container>img {
+        width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    #palms {
+        grid-row: 1/3;
+        grid-column: 1/2;
+        margin-bottom: 30px;
+    }
+
+    #bluehaven {
+        grid-row: 1/3;
+        grid-column: 2/3;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    #bellemarepic {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    #bellemareinfo {
+        grid-row: 4/5;
+        grid-column: 1/2;
+        margin-bottom: 30px;
+        width: 318px;
+        height: 288px;
+    }
+
+    #whitepalacepic {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    #whitepalaceinfo {
+        grid-row: 4/5;
+        grid-column: 2/3;
+        width: 318px;
+        height: 288px;
+    }
+
+    #luxurypalacepic {
+        grid-row: 5/6;
+        grid-column: 1/2;
+        margin-right: 30px;
+    }
+
+    #luxurypalaceinfo {
+        grid-row: 6/7;
+        grid-column: 1/2;
+        width: 318px;
+        height: 288px;
+    }
+
+    #fivestarpic {
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    #fivestarinfo {
+        grid-row: 6/7;
+        grid-column: 2/3;
+        width: 318px;
+        height: 288px;
+    }
+
+    img#pinkline {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        display: none;
+    }
+
+    img#pinkline {
+        display: none;
+    }
+
+    header {
+        display: flex;
+    }
+
+    div#firstnav {
+        padding-left: 50px;
+    }
+
+    div#secondnav {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-left: 50px;
+    }
+
+    form#search {
+        display: flex;
+        margin: 10px 0;
+    }
+
+    .search-container button {
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-left: 0px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    button#submit {
+        width: 10%;
+        background: #EC1F46;
+        border-radius: 0px 6px 6px 0px;
+        box-sizing: border-box;
+    }
+
+    div.parent {
+        margin-left: 0;
+        padding-left: 0;
+        margin: 10px 0;
+    }
+
+    img#shoppingcart {
+        margin-left: 0;
+    }
+
+    img#userimage {
+        width: 20%;
+        margin-left: 0;
+        margin: 10px 0;
+    }
+
+    img#vectordown {
+        width: 5%;
+        margin: 10px 0;
+    }
+
+    nav.thirdnav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 31px;
+        padding-bottom: 31px;
+        background-color: #0A223D;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 50px;
+    }
+
+    div.content-1 {
+        display: flex;
+    }
+
+    div.content-2 {
+        display: block;
+    }
+
+    div#summary-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 50px;
+    }
+
+    div#summary1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        margin-right: 0;
+    }
+
+    div#summary2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        padding-right: 50px;
+    }
+
+    div.content-3 {
+        display: flex;
+    }
+
+    div.content-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightcolumn {
+        display: flex;
+        align-items: flex-start;
+        grid-area: rightcolumn;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 0 1 auto;
+        justify-content: space-between;
+
+    }
+
+    h2.bigtitle {
+        margin-left: 0;
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    input#searchfield {
+        width: 60%;
+    }
+
+    img#beach {
+        width: 60%;
+        height: 20%;
+    }
+
+    nav.fourthnav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1#summary {
+        padding-left: 50px;
+    }
+
+    div.content-3 {
+        display: grid;
+        grid-template-rows:
+            [row1-start] auto [row2-start] auto [row3-start] auto [row4-start] auto [row5-start] auto [row6-start] auto [row7-start] auto [row-end];
+        grid-template-columns:
+            100%;
+        grid-template-areas: "header"
+            "cell1"
+            "cell2"
+            "cell3"
+            "cell4"
+            "cell5"
+            "cell6";
+        padding-left: 50px;
+    }
+
+    .packages-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    div.img.container {
+        width: 100%;
+    }
+
+    div#palms {
+        grid-row: 1/3;
+        grid-column: 1/2;
+        margin-bottom: 30px;
+    }
+
+    div#bluehaven {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    img.hotels {
+        width: 100%;
+    }
+
+    div#bellemarepic {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    div#bellemareinfo {
+        grid-row: 5/6;
+        grid-column: 1/2;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    div#whitepalacepic {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+
+    div#whitepalaceinfo {
+        grid-row: 7/8;
+        grid-column: 1/2;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    div#luxurypalacepic {
+        grid-row: 8/9;
+        grid-column: 1/2;
+        margin-right: 30px;
+    }
+
+    div#luxurypalaceinfo {
+        grid-row: 9/10;
+        grid-column: 1/2;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    div#fivestarpic {
+        grid-row: 10/11;
+        grid-column: 1/2;
+    }
+
+    div#fivestarinfo {
+        grid-row: 11/12;
+        grid-column: 1/2;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    button.booknow {
+        display: none;
+    }
+
+    img#hotelreview {
+        max-width: 100%;
+    }
+
+}
