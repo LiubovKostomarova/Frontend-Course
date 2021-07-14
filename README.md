@@ -35,3 +35,6 @@ https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Sc
 https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Video1.wmv
 https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Video2.wmv
 5) Wiki-page is here: https://github.com/itgirlschool/wiki/wiki/Adaptive-vs.-Responsive-Design
+
+Week8:
+Wiki-Page is here: https://github.com/itgirlschool/wiki/wiki/BOOTSTRAP-TIPS-AND-TRICKS
