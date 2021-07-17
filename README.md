@@ -21,5 +21,20 @@ https://www.figma.com/file/ebqblHvq40LNUtr5hKzztB/Hotel-Booking-Freebie?node-id=
 6) Wiki-page is here: https://github.com/itgirlschool/wiki/wiki/Naming-and-Positioning-Items-by-Grid-Areas
 
 Week7:
-Questions answered. File is here:
-Wiki-page is here: https://github.com/itgirlschool/wiki/wiki/Adaptive-vs.-Responsive-Design
+1) Questions answered. File is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week7/Other
+2) Responsive design of grid: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Grid-Responsive.html 
+Video here: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Responsive_grid.avi
+Adaptive design of grid: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Grid-Adaptive.html
+Video here: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Adaptive_grid.avi
+3) Figma: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Figma.html
+Video here: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Figma.wmv
+4) Example from Habr article: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Index-example.html
+Videos: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Object-fit_cover.wmv
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Repeat(auto-fit).wmv
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Repeat(auto-fit_minmax).wmv
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Video1.wmv
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Screenshots/Video2.wmv
+5) Wiki-page is here: https://github.com/itgirlschool/wiki/wiki/Adaptive-vs.-Responsive-Design
+
+Week8:
+Wiki-Page is here: https://github.com/itgirlschool/wiki/wiki/BOOTSTRAP-TIPS-AND-TRICKS
