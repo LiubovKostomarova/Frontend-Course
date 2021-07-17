@@ -1,0 +1,94 @@
+.header__headline {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.header__image {
+    width: 100%;
+}
+
+.header__logo {
+    margin-right: auto;
+}
+
+.btn {
+    border-radius: 100px;
+    background-color: #5222D0;
+}
+
+.main-content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main-content__title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card-columns {
+    margin-bottom: 0
+}
+
+.card {
+    box-sizing: border-box;
+    margin-bottom: 0 !important;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card-img-top {
+    align-self: center;
+}
+
+.card-text {
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.card-subscription_input-form {
+    margin-bottom: 5%;
+}
+
+footer {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.footer__nav__menu {
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.footer__nav__menu-item {
+    display: flex;
+    font-family: Roboto Slab;
+    color: black;
+    font-style: normal;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 639px) {
+    .main-content {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .main-content__title {
+        font-size: 2rem;
+    }
+
+    .footer__nav__menu {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+}

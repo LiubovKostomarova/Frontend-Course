@@ -1,0 +1,17 @@
+.navbar {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+ul.navbar-nav {
+    margin-right: 15%;
+}
+
+.my-3.py-5.mx-auto {
+    background-color: rgba(174, 200, 212, 0.274);
+    width: 75%;
+}
+
+.card-deck.mx-auto {
+    width: 75%;
+}

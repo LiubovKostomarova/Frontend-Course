@@ -1,0 +1,305 @@
+        .header__headline {
+            display: flex;
+            margin-top: 3%;
+            margin-left: 2%;
+            margin-right: 5%;
+            margin-bottom: 4%;
+        }
+
+        .header__image {
+            width: 100%;
+        }
+
+        .header__logo {
+            margin-right: auto;
+        }
+
+        .btn {
+            border-radius: 100px;
+            background-color: #5222D0;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .main-content__left-section {
+            margin-top: 40px;
+            margin-left: 5%;
+            margin-right: 5%;
+            width: 37%;
+        }
+
+        .main-content__title {
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 120%;
+            margin-bottom: 10px;
+        }
+
+        .main-content__text {
+            font-family: 'Roboto Slab', serif;
+            font-weight: 300;
+            line-height: 160%;
+            margin-bottom: 30px;
+        }
+
+        .blue-button__creditcard-image {
+            padding-left: 10%;
+        }
+
+        .main-content__right-section__images {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .main-content__background-image {
+            position: relative;
+            max-width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .main-content__guy-image {
+            position: absolute;
+            max-width: 70%;
+            top: 4%;
+            left: 6%;
+        }
+
+        footer {
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+
+        .footer__nav__menu {
+            list-style-type: none;
+            display: inline-flex;
+            padding-left: 0;
+            justify-content: space-between;
+        }
+
+        .footer__nav__menu-item {
+            display: flex;
+            font-family: Roboto Slab;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 160%;
+            color: #5222D0;
+            margin-right: 2rem;
+        }
+
+        @media screen and (max-width: 635px) {
+            .header__headline {
+                display: flex;
+                flex-direction: column;
+                margin-top: 3%;
+                margin-left: 60px;
+                margin-right: 5%;
+                margin-bottom: 0;
+            }
+
+            .header__logo {
+                margin-bottom: 30px;
+                width: 100px;
+            }
+
+            .main-content__left-section {
+                text-align: left;
+                width: 50%;
+                margin-left: 60px;
+                margin-top: 30px;
+            }
+
+            .main-content__title {
+                text-transform: uppercase;
+                width: 500px;
+                font-size: 2rem;
+                font-weight: 600;
+                line-height: 120%;
+                margin-bottom: 10px;
+            }
+
+            .main-content {
+                display: flex;
+                flex-direction: column;
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            .main-content__text {
+                font-family: 'Roboto Slab', serif;
+                width: 300px;
+                font-size: 1rem;
+                font-weight: 200;
+                line-height: 160%;
+                margin-bottom: 30px;
+            }
+
+            a.btn.btn-primary.btn-lg.border-0 {
+                width: 100px;
+                height: 40px;
+                font-size: 1rem;
+            }
+
+            .blue-button__creditcard-image {
+                display: none;
+            }
+
+            .main-content__right-section__images {
+                margin-left: 60px;
+                margin-top: 10%;
+            }
+
+            .main-content__background-image {
+                position: relative;
+                max-width: 45%;
+                top: 0;
+                left: 0;
+            }
+
+            .main-content__guy-image {
+                position: absolute;
+                max-width: 25%;
+                top: 4%;
+                left: 6%;
+            }
+
+            .blue-button {
+                width: 50%;
+                font-size: 0.5rem;
+            }
+
+            .footer__nav__menu {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                padding-left: 0;
+                justify-content: space-between;
+                margin-left: 7%;
+            }
+
+            .footer__nav__menu-item {
+                display: flex;
+                font-family: Roboto Slab;
+                font-style: normal;
+                font-size: 15px;
+                font-weight: 100;
+                line-height: 160%;
+                color: #5222D0;
+                margin-right: 2rem;
+            }
+        }
+
+        @media screen and (min-width: 636px) and (max-width: 799px) {
+            .header__headline {
+                display: flex;
+                flex-direction: column;
+                margin-top: 3%;
+                margin-left: 7%;
+                margin-right: 5%;
+                margin-bottom: 0;
+            }
+
+            .header__logo {
+                margin-bottom: 30px;
+                width: 200px;
+            }
+
+            .main-content__left-section {
+                text-align: left;
+                width: 85%;
+                margin-left: 7%;
+                margin-top: 30px;
+            }
+
+            .main-content__title {
+                text-transform: uppercase;
+                font-size: 2rem;
+                font-weight: 600;
+                line-height: 120%;
+                margin-bottom: 10px;
+            }
+
+            .main-content {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .main-content__text {
+                font-family: 'Roboto Slab', serif;
+                font-size: 1rem;
+                font-weight: 200;
+                line-height: 160%;
+                margin-bottom: 30px;
+            }
+
+            a.btn.btn-primary.btn-lg.border-0 {
+                width: 100px;
+                height: 60px;
+                font-size: 1rem;
+            }
+
+            .blue-button__creditcard-image {
+                width: 30px;
+            }
+
+            .main-content__right-section__images {
+                margin-left: 7%;
+                margin-top: 10%;
+            }
+
+            .main-content__background-image {
+                position: relative;
+                max-width: 45%;
+                top: 0;
+                left: 0;
+            }
+
+            .main-content__guy-image {
+                position: absolute;
+                max-width: 25%;
+                top: 4%;
+                left: 6%;
+            }
+
+            .main-content__background-image {
+                position: relative;
+                max-width: 50%;
+                top: 0;
+                left: 0;
+            }
+
+            .main-content__guy-image {
+                position: absolute;
+                max-width: 30%;
+                top: 4%;
+                left: 6%;
+            }
+
+            .blue-button {
+                width: 50%;
+                font-size: 0.5rem;
+            }
+
+            .footer__nav__menu {
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                padding-left: 0;
+                justify-content: space-between;
+            }
+
+            .footer__nav__menu-item {
+                display: flex;
+                font-family: Roboto Slab;
+                font-style: normal;
+                font-size: 15px;
+                font-weight: 100;
+                line-height: 160%;
+                color: #5222D0;
+                margin-right: 2rem;
+            }
+        }
