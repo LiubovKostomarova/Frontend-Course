@@ -37,4 +37,21 @@ https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week7/Assets/Sc
 5) Wiki-page is here: https://github.com/itgirlschool/wiki/wiki/Adaptive-vs.-Responsive-Design
 
 Week8:
-Wiki-Page is here: https://github.com/itgirlschool/wiki/wiki/BOOTSTRAP-TIPS-AND-TRICKS
+1) Questions answered. File is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week8/Other
+2) Bootstrap template is designed. 
+Code is here: 
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Index-bootstrap.html
+Screenshots are here: 
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Screenshots/Bootstrap1.PNG
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Screenshots/Bootstrap2.PNG
+3) Figma template using BEM-methodology is designed. 
+Code is here: 
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/BEM1.html
+And here: 
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/BEM2.html
+Screenshots are here: 
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Screenshots/Figma1.PNG
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Screenshots/Figma2.PNG
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Screenshots/Figma3.PNG
+https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Screenshots/Figma4.PNG
+4) Wiki-Page is here: https://github.com/itgirlschool/wiki/wiki/BOOTSTRAP-TIPS-AND-TRICKS
