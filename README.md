@@ -55,3 +55,7 @@ https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Sc
 https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Screenshots/Figma3.PNG
 https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Screenshots/Figma4.PNG
 4) Wiki-Page is here: https://github.com/itgirlschool/wiki/wiki/BOOTSTRAP-TIPS-AND-TRICKS
+
+Week11:
+1) Questions answered and the file is here: 
+2) WIki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript---Functions-and-Events
