@@ -57,5 +57,8 @@ https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Sc
 4) Wiki-Page is here: https://github.com/itgirlschool/wiki/wiki/BOOTSTRAP-TIPS-AND-TRICKS
 
 Week11:
-1) Questions answered and the file is here: 
-2) WIki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript---Functions-and-Events
+1) Questions answered and the file is here: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week11/%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%F0%9F%92%8E.docx
+3) Task1 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week11/task1
+4) Task2 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week11/task2
+5) Video, which shows both tasks in action is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week11/Video
+6) WIki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript---Functions-and-Events
