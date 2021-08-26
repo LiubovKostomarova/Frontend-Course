@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сalculator</title>
+</head>
+
+<body>
+    <h1>Сalсulator</h1>
+    <input id="num1" />
+    <div id="operator_buttons">
+        <button id="plus" class="operator" onclick="op=`+`">+</button>
+        <button id="minus" class="operator" onclick="op=`-`">-</button>
+        <button id="times" class="operator" onclick="op=`*`">*</button>
+        <button id="divide" class="operator" onclick="op=`/`">/</button>
+    </div>
+    <input id="num2" />
+    <button onclick="func()">равно</button>
+    <p id="result"></p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

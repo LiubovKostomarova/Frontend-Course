@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper1,
+.wrapper2,
+.wrapper3 {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 25vw;
+}
+
+.selected {
+    background-color: rgb(197, 141, 202);
+    border: 1px solid rgb(110, 25, 92);
+}
