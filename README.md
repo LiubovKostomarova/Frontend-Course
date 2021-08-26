@@ -61,4 +61,7 @@ Week13:
 3) Task1 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week13/task1
 4) Task2 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week13/task2
 5) Video, which shows both tasks in action is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week13/Video
-6) WIki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript---Functions-and-Events
+6) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript---Functions-and-Events
+
+Week14:
+Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/Arrow-functions,-the-basics
