@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    <form name="search">
+        <label>Поиск:
+            <input type="text" name="search">
+        </label>
+        <input type="submit" value="Search!">
+    </form>
+    <hr>
+    <form name="search-person">Поиск по посетителям:
+        <table id="age-table">
+            <tr>
+                <td>Возраст:</td>
+                <td id="age-list">
+                    <label>
+                        <input type="radio" name="age" value="young">до 18</label>
+                    <label>
+                        <input type="radio" name="age" value="mature">18-50</label>
+                    <label>
+                        <input type="radio" name="age" value="senior">старше 50</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Дополнительно:</td>
+                <td>
+                    <input type="text" name="info">
+                    <input type="text" name="info">
+                    <input type="text" name="info"> </td>
+            </tr>
+        </table>
+        <input id="search" type="button" value="Search!" onclick="func()">
+    </form>
+
+    <button onclick="showMessage()">Click on me</button>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

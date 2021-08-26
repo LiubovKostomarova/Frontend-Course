@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator_v2</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Calculator</h1>
+        <div class="calc-input">
+            <input type="text" onfocus="this.value=''" value="enter first number" id="first_number" class="num-input">
+            <input type="text" onfocus="this.value=''" value="enter second number" id="second_number" class="num-input">
+        </div>
+        <div>
+            <button class="btn" onClick="addResult()">&plus;</button>
+            <button class="btn" onClick="subtractResult()">&minus;</button>
+            <button class="btn" onClick="multiplyResult()">&times;</button>
+            <button class="btn" onClick="divideResult()">&divide;</button>
+            <button class="btn" onclick="clearInputs();">Clear</button>
+        </div>
+        <input type="text" onfocus="this.value=''" value="result" id="final_result" class="num-input">
+    </div>
+
+    <script src="calculator_w14.js" type="text/javascript"></script>
+</body>
+
+</html>
