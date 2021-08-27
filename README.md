@@ -64,4 +64,9 @@ Week13:
 6) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript---Functions-and-Events
 
 Week14:
-Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/Arrow-functions,-the-basics
+1) Questions answered and the file is here: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week14/%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%F0%9F%92%8E.docx
+2) Task1 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week14/task1
+3) Task2 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week14/task2
+4) Task3 has two versions and they are here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week14/task3
+5) Task4 "Debugging" is done.
+6) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/Arrow-functions,-the-basics
