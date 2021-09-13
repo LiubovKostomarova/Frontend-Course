@@ -4,11 +4,11 @@ const images = document.querySelector('.carousel').children;
 const totalImages = images.length;
 let index = 0;
 
-prev.addEventListener('click', () => {
+next.addEventListener('click', () => {
     nextImage('next');
 })
 
-next.addEventListener('click', () => {
+prev.addEventListener('click', () => {
     nextImage('prev');
 })
 
@@ -16,7 +16,7 @@ function nextImage(direction) {
     if (direction == 'next') {
         index++;
         if (index == totalImages) {
-            index = 0;
+            index == 0;
         }
     } else {
         if (index == 0) {
