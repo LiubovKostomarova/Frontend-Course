@@ -30,7 +30,14 @@
     background: #1799e4;
 }
 
-#errorMessage {
+div#errorMessage,
+div#errorMessage_first_name,
+#errorMessage_last_name,
+#errorMessage_username,
+#errorMessage_job,
+#errorMessage_phone_number,
+#errorMessage_password,
+#errorMessage_password_confirmation {
     color: red;
 }
 
