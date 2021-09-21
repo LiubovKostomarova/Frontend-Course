@@ -77,3 +77,9 @@ Week15:
 3) Task2 is here:https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week15/task2
 4) Task3 is here:https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week15/task3
 5) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/Loops:-while-and-for
+
+Week16:
+1) Questions answered and the file is here:
+2) Task1 is here:
+3) Task2 is here:
+4) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript-Array-sort:-Sorting-Array-Elements
