@@ -79,7 +79,7 @@ Week15:
 5) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/Loops:-while-and-for
 
 Week16:
-1) Questions answered and the file is here:
-2) Task1 is here:
-3) Task2 is here:
+1) Questions answered and the file is here: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week16/%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%F0%9F%92%8E.docx
+2) Task1 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week16/task1
+3) Task2 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week16/task2
 4) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript-Array-sort:-Sorting-Array-Elements
