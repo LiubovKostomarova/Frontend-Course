@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Car price calculator</h1>
+    <select class="form-control" id="brand" onchange=onChangeBrand()>
+        <option value="0" selected>Brand:</option>
+        <option value="50000">Acura</option>
+        <option value="55000">Alfa Romeo</option>
+        <option value="60000">Aston Martin</option>
+        <option value="80000">Audi</option>
+        <option value="90000">Bentley</option>
+        <option value="10000">BMW</option>
+        <option value="11000">Brilliance</option>
+        <option value="12000">Buick</option>
+        <option value="13000">BYD</option>
+        <option value="14000">Cadillac</option>
+        <option value="8000">Citroen</option>
+        <option value="7000">Dacia</option>
+    </select>
+
+    <select class="form-control" id="model" onchange=onChangeModel() disabled>
+        <option value="0" selected> Model</option>
+    </select>
+
+    <select class="form-control" id="releaseYear" class="form-control" onchange=onChangeYear() disabled>
+        <option value="0" selected>Release Year</option>
+        <option value="1000">2021</option>
+        <option value="800">2020</option>
+        <option value="700">2019</option>
+        <option value="600">2018</option>
+        <option value="500">2017</option>
+        <option value="400">2016</option>
+        <option value="250">older than 2016</option>
+    </select>
+
+    <select class="form-control" id="configuration" onchange=onChangeConfiguration() disabled>
+        <option value="" selected disabled>Configuration</option>
+    </select>
+
+    <div>
+        <label for="formСheck">Mileage:</label>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="55000" checked>
+            <label class="form-check-label" for="exampleRadios1">less than 20.000 km</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="50000">
+            <label class="form-check-label" for="exampleRadios2">50.000 km</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="25000">
+            <label class="form-check-label" for="exampleRadios3">up to 100.000 km</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="10000">
+            <label class="form-check-label" for="exampleRadios4">more than 100.000 km</label>
+        </div>
+    </div>
+
+    <div class="form-group options">
+        <select class="form-control" id="carBody" disabled>
+            <option value=0 selected>Car body</option>
+            <option value="10000">Sedan</option>
+            <option value="20000">Universal</option>
+            <option value="30000">Hatchback</option>
+            <option value="40000">SUV</option>
+        </select>
+    </div>
+    <div>
+        <label for="formСheck">Fuel:</label>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox" value="5000">
+            <label class="form-check-label" for="inlineCheckbox1">Gasoline</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox" value="3500">
+            <label class="form-check-label" for="inlineCheckbox2">Diesel</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox" value="10000">
+            <label class="form-check-label" for="inlineCheckbox3">Elextro car</label>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-success options" id="btn_ok" onclick="calculatePrice()">Price</button>
+    <button type="button" class="btn btn-secondary options" id="btn_ok" onclick="deleteData()">Data
+        reset</button>
+    </div>
+
+    <div class="result_content">
+        <div id="result">
+        </div>
+    </div>
+
+    <script src="calc2.js"></script>
+</body>
+
+</html>

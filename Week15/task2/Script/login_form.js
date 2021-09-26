@@ -1,12 +1,3 @@
-$(function () {
-    $('input, select').on('focus', function () {
-        $(this).parent().find('.input-group-text').css('border-color', '#80bdff');
-    });
-    $('input, select').on('blur', function () {
-        $(this).parent().find('.input-group-text').css('border-color', '#ced4da');
-    });
-});
-
 function check() {
     let first_name = document.getElementById('firstName');
     let last_name = document.getElementById('lastName');

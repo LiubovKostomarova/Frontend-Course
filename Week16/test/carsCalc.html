@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Calculator</title>
+    <link rel="stylesheet" type="text/css" href="carsCalc.css">
+</head>
+
+<body>
+    <div class="row">
+        <div
+            class="col-lg-16 col-lg-offset-4 col-md-20 col-md-offset-2 col-sm-16 col-sm-offset-4 col-xs-20 col-xs-offset-2">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title text-center">Калькулятор стоимости авто</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="jt-calculator">
+                        <form action="" class="form-horizontal" method="post" data-track-submit="calc_send">
+
+                            <div class="form-group form-group-sm"><label class="col-sm-11 control-label"
+                                    for="calculator_raw_cost">Цена на аукционе, &yen</label>
+                                <div class="col-sm-13"><input type="text" id="calculator_raw_cost"
+                                        name="calculator[raw_cost]" class="form-control" /></div>
+                            </div>
+                            <div class="form-group form-group-sm"><label class="col-sm-11 control-label"
+                                    for="calculator_auction">Аукцион</label>
+                                <div class="col-sm-13"><select id="calculator_auction" name="calculator[auction]"
+                                        class="form-control">
+                                        <option value="0" selected="selected">По умолчанию (¥22 000)</option>
+                                        <option value="352">ARAI BAYSIDE</option>
+                                        <option value="351">ARAI OYAMA</option>
+                                        <option value="350">ARAI OYAMA V/T</option>
+                                        <option value="349">ARAI SENDAI</option>
+                                        <option value="348">BAYAUC</option>
+                                        <option value="346">CAA CHUBU</option>
+                                        <option value="345">CAA GIFU</option>
+                                        <option value="344">CAA TOHOKU</option>
+                                        <option value="343">CAA TOKYO</option>
+                                        <option value="342">HAA KOBE</option>
+                                        <option value="341">HANATEN OSAKA</option>
+                                        <option value="340">HERO</option>
+                                        <option value="339">HONDA HOKKAIDO</option>
+                                        <option value="338">HONDA KANSAI</option>
+                                        <option value="337">HONDA KYUSHU</option>
+                                        <option value="336">HONDA NAGOYA</option>
+                                        <option value="335">HONDA SENDAI</option>
+                                        <option value="334">HONDA TOKYO</option>
+                                        <option value="393">HONDA TOKYO GOTENBA</option>
+                                        <option value="333">IAA OSAKA</option>
+                                        <option value="384">IPA Fukuoka Nyusatsu</option>
+                                        <option value="385">IPA Kobe Nyusatsu</option>
+                                        <option value="353">IPA Tokyo Nyusatsu</option>
+                                        <option value="332">ISUZU KOBE</option>
+                                        <option value="331">ISUZU KYUSHU</option>
+                                        <option value="330">ISUZU MAKUHARI</option>
+                                        <option value="329">JAA</option>
+                                        <option value="328">JU AICHI</option>
+                                        <option value="327">JU AKITA</option>
+                                        <option value="386">JU AOMORI</option>
+                                        <option value="326">JU CHIBA</option>
+                                        <option value="387">JU FUKUI</option>
+                                        <option value="325">JU FUKUOKA</option>
+                                        <option value="324">JU FUKUSHIMA</option>
+                                        <option value="323">JU GIFU</option>
+                                        <option value="322">JU GUNMA</option>
+                                        <option value="321">JU HIROSHIMA</option>
+                                        <option value="320">JU IBARAKI</option>
+                                        <option value="319">JU ISHIKAWA</option>
+                                        <option value="318">JU KANAGAWA</option>
+                                        <option value="317">JU KUMAMOTO</option>
+                                        <option value="316">JU MIE</option>
+                                        <option value="315">JU MIYAGI</option>
+                                        <option value="314">JU MIYAZAKI</option>
+                                        <option value="313">JU NAGANO</option>
+                                        <option value="312">JU NARA</option>
+                                        <option value="311">JU NIIGATA</option>
+                                        <option value="382">JU OITA</option>
+                                        <option value="310">JU OKINAWA</option>
+                                        <option value="309">JU SAITAMA</option>
+                                        <option value="308">JU SAPPORO</option>
+                                        <option value="307">JU SHIZUOKA</option>
+                                        <option value="306">JU TOCHIGI</option>
+                                        <option value="305">JU TOKYO</option>
+                                        <option value="304">JU TOYAMA</option>
+                                        <option value="303">JU YAMAGATA</option>
+                                        <option value="302">JU YAMAGUCHI</option>
+                                        <option value="301">JU YAMANASHI</option>
+                                        <option value="300">KAA</option>
+                                        <option value="388">KANSAI MATSUBARA AA</option>
+                                        <option value="299">KCAA FUKUOKA</option>
+                                        <option value="298">KCAA MINAMIKYUSHU</option>
+                                        <option value="297">KCAA YAMAGUCHI</option>
+                                        <option value="296">L-UP FUKUOKA</option>
+                                        <option value="295">L-UP KOBE</option>
+                                        <option value="294">L-UP TOKYO</option>
+                                        <option value="293">LAA KANSAI</option>
+                                        <option value="292">LAA OKAYAMA</option>
+                                        <option value="291">LAA SHIKOKU</option>
+                                        <option value="266">LUM FUKUOKA</option>
+                                        <option value="265">LUM KOBE</option>
+                                        <option value="264">LUM NAGOYA</option>
+                                        <option value="263">LUM SAPPORO</option>
+                                        <option value="262">LUM TOKYO</option>
+                                        <option value="389">LUM TOKYO NASU</option>
+                                        <option value="390">LUM TOKYO NODA</option>
+                                        <option value="391">LUM TOKYO SAYAMA</option>
+                                        <option value="347">MIRIVE (BCN)</option>
+                                        <option value="290">NAA FUKUOKA</option>
+                                        <option value="289">NAA NAGOYA</option>
+                                        <option value="288">NAA NAGOYA Nyusatsu</option>
+                                        <option value="287">NAA OSAKA</option>
+                                        <option value="286">NAA OSAKA Nyusatsu</option>
+                                        <option value="285">NAA TOKYO</option>
+                                        <option value="284">NAA TOKYO Nyusatsu</option>
+                                        <option value="383">NISSAN OSAKA</option>
+                                        <option value="283">NPS FUKUOKA</option>
+                                        <option value="282">NPS GIFU</option>
+                                        <option value="281">NPS OSAKA</option>
+                                        <option value="280">NPS SENDAI</option>
+                                        <option value="279">NPS TOCHIGI</option>
+                                        <option value="278">NPS TOKYO</option>
+                                        <option value="277">NPS TOMAKOMAI</option>
+                                        <option value="276">ORIX ATSUGI</option>
+                                        <option value="275">ORIX FUKUOKA</option>
+                                        <option value="274">ORIX KOBE</option>
+                                        <option value="273">ORIX SENDAI</option>
+                                        <option value="272">SAA HAMAMATSU</option>
+                                        <option value="271">SAA SAPPORO</option>
+                                        <option value="270">SLC KOBE</option>
+                                        <option value="269">SLC KYUSHU</option>
+                                        <option value="268">SLC NAGOYA</option>
+                                        <option value="267">SLC TOKYO</option>
+                                        <option value="261">TAA CHUBU</option>
+                                        <option value="260">TAA HIROSHIMA</option>
+                                        <option value="259">TAA HOKKAIDO</option>
+                                        <option value="354">TAA KANTO</option>
+                                        <option value="355">TAA KINKI</option>
+                                        <option value="392">TAA KITA KANTO YARD</option>
+                                        <option value="356">TAA KYUSHU</option>
+                                        <option value="357">TAA MINAMIKYUSHU</option>
+                                        <option value="358">TAA SHIKOKU</option>
+                                        <option value="359">TAA TOHOKU</option>
+                                        <option value="360">TAA YOKOHAMA</option>
+                                        <option value="361">USS FUKUOKA</option>
+                                        <option value="362">USS GUNMA</option>
+                                        <option value="363">USS HOKURIKU</option>
+                                        <option value="364">USS KOBE</option>
+                                        <option value="365">USS KYUSHU</option>
+                                        <option value="366">USS NAGOYA</option>
+                                        <option value="367">USS NIIGATA</option>
+                                        <option value="368">USS OKAYAMA</option>
+                                        <option value="369">USS OSAKA</option>
+                                        <option value="370">USS R NAGOYA</option>
+                                        <option value="371">USS SAITAMA</option>
+                                        <option value="372">USS SAPPORO</option>
+                                        <option value="373">USS SHIZUOKA</option>
+                                        <option value="374">USS TOHOKU</option>
+                                        <option value="375">USS TOKYO</option>
+                                        <option value="376">USS YOKOHAMA</option>
+                                        <option value="377">ZERO CHIBA</option>
+                                        <option value="378">ZERO CHUBU</option>
+                                        <option value="379">ZERO SENDAI</option>
+                                        <option value="380">ZERO SHONAN</option>
+                                        <option value="381">ZIP OSAKA</option>
+                                    </select></div>
+                            </div>
+                            <input type="hidden" id="calculator_port" name="calculator[port]" value="3" />
+                            <div class="form-group form-group-sm"><label class="col-sm-11 control-label">Тип
+                                    услуги</label>
+                                <div class="col-sm-13">
+                                    <div id="calculator_service_type">
+                                        <div class="radio"> <label for="calculator_service_type_0" class=""><input
+                                                    type="radio" id="calculator_service_type_0"
+                                                    name="calculator[service_type]" value="cc_full" checked="checked" />
+                                                Целый автомобиль</label>
+                                        </div>
+                                        <div class="radio"> <label for="calculator_service_type_1" class=""><input
+                                                    type="radio" id="calculator_service_type_1"
+                                                    name="calculator[service_type]" value="cc_cut" /> Распил
+                                                легковой</label>
+                                        </div>
+                                        <div class="radio"> <label for="calculator_service_type_2" class=""><input
+                                                    type="radio" id="calculator_service_type_2"
+                                                    name="calculator[service_type]" value="cc_cut_framed" /> Распил
+                                                рамный</label>
+                                        </div>
+                                        <div class="radio"> <label for="calculator_service_type_3" class=""><input
+                                                    type="radio" id="calculator_service_type_3"
+                                                    name="calculator[service_type]" value="cc_kit" /> Конструктор
+                                                легковой</label>
+                                        </div>
+                                        <div class="radio"> <label for="calculator_service_type_4" class=""><input
+                                                    type="radio" id="calculator_service_type_4"
+                                                    name="calculator[service_type]" value="cc_kit_framed" /> Конструктор
+                                                джип, м/а, европ. марки</label>
+                                        </div>
+                                        <div class="radio"> <label for="calculator_service_type_5" class=""><input
+                                                    type="radio" id="calculator_service_type_5"
+                                                    name="calculator[service_type]" value="cc_pallet" /> Запчасти на
+                                                палете</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="calculator_clearance_section">
+                                <div class="form-group form-group-sm"><label class="col-sm-11 control-label">Тип
+                                        топлива</label>
+                                    <div class="col-sm-13">
+                                        <div id="calculator_fueltype">
+                                            <div class="radio"> <label for="calculator_fueltype_0" class=""><input
+                                                        type="radio" id="calculator_fueltype_0"
+                                                        name="calculator[fueltype]" value="petrol" checked="checked" />
+                                                    бензин (включая гибрид)</label>
+                                            </div>
+                                            <div class="radio"> <label for="calculator_fueltype_1" class=""><input
+                                                        type="radio" id="calculator_fueltype_1"
+                                                        name="calculator[fueltype]" value="diesel" /> дизельное
+                                                    топливо</label>
+                                            </div>
+                                            <div class="radio"> <label for="calculator_fueltype_2" class=""><input
+                                                        type="radio" id="calculator_fueltype_2"
+                                                        name="calculator[fueltype]" value="electro" />
+                                                    электрический</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group form-group-sm"><label class="col-sm-11 control-label"
+                                        for="calculator_volume">Объем двигателя, см<sup>3</sup></label>
+                                    <div class="col-sm-13"><input type="text" id="calculator_volume"
+                                            name="calculator[volume]" class="form-control" /></div>
+                                </div>
+                                <div class="form-group form-group-sm"><label class="col-sm-11 control-label"
+                                        for="calculator_power">Мощность, л.с.</label>
+                                    <div class="col-sm-13"><input type="text" id="calculator_power"
+                                            name="calculator[power]" class="form-control" /></div>
+                                </div>
+                                <div class="form-group form-group-sm"><label class="col-sm-11 control-label">Возраст
+                                        автомобиля</label>
+                                    <div class="col-sm-13">
+                                        <div id="calculator_age_class">
+                                            <div class="radio"> <label for="calculator_age_class_0" class=""><input
+                                                        type="radio" id="calculator_age_class_0"
+                                                        name="calculator[age_class]" value="new" /> Меньше 3 лет</label>
+                                            </div>
+                                            <div class="radio"> <label for="calculator_age_class_1" class=""><input
+                                                        type="radio" id="calculator_age_class_1"
+                                                        name="calculator[age_class]" value="used_s" checked="checked" />
+                                                    От 3 до 5 лет</label>
+                                            </div>
+                                            <div class="radio"> <label for="calculator_age_class_2" class=""><input
+                                                        type="radio" id="calculator_age_class_2"
+                                                        name="calculator[age_class]" value="used_e" /> От 5 до 7
+                                                    лет</label>
+                                            </div>
+                                            <div class="radio"> <label for="calculator_age_class_3" class=""><input
+                                                        type="radio" id="calculator_age_class_3"
+                                                        name="calculator[age_class]" value="old" /> Больше 7 лет</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group form-group-sm">
+                                    <label class="col-sm-11 control-label">Дополнительно:</label>
+                                    <div class="col-sm-13">
+                                        <input type="checkbox" id="scales" name="scales" checked>
+                                        <label for="scales">матовый цвет</label>
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label for="horns">помощь при парковке</label>
+                                        <input type="checkbox" id="horns" name="horns">
+                                        <label for="horns">автопилот</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group form-group-sm"><label
+                                        class="col-sm-11 control-label">Получатель</label>
+                                    <div class="col-sm-13">
+                                        <div id="calculator_importer">
+                                            <div class="radio"> <label for="calculator_importer_0" class=""><input
+                                                        type="radio" id="calculator_importer_0"
+                                                        name="calculator[importer]" value="p" checked="checked" />
+                                                    Физическое лицо</label>
+                                            </div>
+                                            <div class="radio"> <label for="calculator_importer_1" class=""><input
+                                                        type="radio" id="calculator_importer_1"
+                                                        name="calculator[importer]" value="l" /> Юридическое
+                                                    лицо</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group form-group-sm"><label class="col-sm-11 control-label"
+                                        for="calculator_declared_cost">Таможенная стоимость, $. <br><small>(оставьте
+                                            поле пустым для подачи по аукционной цене)</small></label>
+                                    <div class="col-sm-13">
+                                        <div class="input-group"><input type="text" id="calculator_declared_cost"
+                                                name="calculator[declared_cost]" class="form-control" /><span
+                                                class="input-group-btn">
+                                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
+                                                    data-target="#clearancemodel_grid_modal">
+                                                    <i class="fa fa-th"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-13 col-sm-offset-11 m-t-md">
+                                    <button type="submit" class="btn btn-primary">Рассчитать</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="carsCalc.js"></script>
+</body>
+
+</html>
