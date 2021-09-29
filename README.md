@@ -83,3 +83,6 @@ Week16:
 2) Task1 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week16/task1
 3) Task2 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week16/task2
 4) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript-Array-sort:-Sorting-Array-Elements
+
+Week17:
+Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/The-%22new-Function%22-syntax
