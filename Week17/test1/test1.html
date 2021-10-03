@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/reg_name.css">
+    <title>W17 Practice task 1</title>
+</head>
+
+<body>
+    <div class="reg-name__wrapper">
+        <div class="reg-name__block">
+            <label for="snp">Enter your full name (surname, name, patronymic)</label>
+            <input type="text" name="snp" id="snp" class="reg-name__input" size="70" />
+        </div>
+
+        <button class="btn" id="button" onclick="splitName()">split</button>
+
+        <div class="reg-name__block">
+            <label for="surname">Enter your surname &nbsp;</label>
+            <input type="text" name="surname" id="surname" class="reg-name__input" size="30" disabled />
+        </div>
+
+        <div class="reg-name__block">
+            <label for="name">Enter your name &nbsp;</label>
+            <input type="text" name="name" id="name" class="reg-name__input" size="30" disabled />
+        </div>
+
+        <div class="reg-name__block">
+            <label for="patr">Enter your patronymic &nbsp;</label>
+            <input type="text" name="patr" id="patr" class="reg-name__input" size="30" disabled />
+        </div>
+    </div>
+
+    <script src="test1.js">
+    </script>
+
+</body>
+
+</html>

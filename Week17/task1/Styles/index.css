@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(230, 223, 203);
+}
+
+.name {
+    text-align: center;
+}
+
+label {
+    color: rgb(66, 37, 13);
+}
+
+.form {
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid rgb(75, 45, 12);
+    border-radius: 5px;
+}
+
+.user_name {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.user_full_name {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
