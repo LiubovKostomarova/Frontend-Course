@@ -85,4 +85,8 @@ Week16:
 4) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/JavaScript-Array-sort:-Sorting-Array-Elements
 
 Week17:
-Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/The-%22new-Function%22-syntax
+1) Task1 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week17/task1
+2) Task2 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week17/task2
+3) Task3 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week17/task3
+4) Task4 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week17/task4
+5) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/The-%22new-Function%22-syntax
