@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        header {
+            grid-area: hd;
+        }
+
+        .footer-container {
+            grid-area: ft;
+        }
+
+
+
+        .wrapper {
+            display: grid;
+            grid-template-rows: 1fr 2fr 1fr;
+            grid-template-columns: 2fr 1fr;
+            grid-template-areas:
+                "hd hd"
+                "main main"
+                "ft ft";
+
+        }
+
+        .wrapper-2 {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 3fr 1fr;
+            margin-left: 165px;
+        }
+
+        header.header-flexcontainer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .footer-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 4rem;
+        }
+
+        .header-flexcontainer,
+        .main-wrapper,
+        .sidebar,
+        .footer-container {
+            border: 1px solid red;
+        }
+
+        .content-1,
+        .content-2,
+        .footer-1,
+        .footer-2,
+        .footer-3,
+        .footer-4 {
+            border: 1px solid yellow;
+        }
+
+        div#firstnav {
+            background-color: #F5FAFE;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 168px 24px 165px;
+        }
+
+        div#secondnav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 51px 168px 45px 165px;
+        }
+
+        img#giftbox {
+            margin-left: auto;
+        }
+
+        div#phonenumber,
+        div#giftcard,
+        div#loyalty {
+            font-family: 'Mulish', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 13px;
+            /* identical to box height */
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+
+        div#agencyname {
+            font-family: 'Luckiest Guy', cursive;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 24px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+        }
+
+        .topnav input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .search-container button {
+
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            margin-left: 0px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .search-container button:hover {
+            background: #ccc;
+        }
+
+        @media screen and (max-width: 600px) {
+            .search-container {
+                float: none;
+            }
+        }
+
+        form#search {
+            margin-left: 108px;
+
+        }
+
+        input#searchfield {
+            width: 350px;
+            height: 40px;
+            background: #F5FAFE;
+            border-radius: 6px;
+        }
+
+        button#submit {
+            width: 65px;
+            height: 40px;
+            left: 735px;
+            top: 100px;
+            background: #EC1F46;
+            border-radius: 0px 6px 6px 0px;
+        }
+
+        div.parent {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        img#shoppingcart {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 24px;
+            height: 24px;
+
+        }
+
+        img#pinkcircle {
+            position: absolute;
+            bottom: 20px;
+            width: 20px;
+            height: 20px;
+        }
+
+        img#shoppingcart {
+            margin-left: auto;
+        }
+
+        img#userimage {
+            margin-left: 63px;
+            margin-right: 18px;
+        }
+
+        div#username {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            /* identical to box height */
+
+
+            /* Gray 1 */
+
+            color: #333333;
+            margin-right: 24px;
+        }
+
+        nav.thirdnav {
+            padding: 31px 80px;
+            background-color: #0A223D;
+        }
+
+        .thirdnav a {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            /* identical to box height */
+
+            text-transform: uppercase;
+            text-decoration: none;
+
+            color: #FFFFFF;
+        }
+
+        nav.fourthnav {
+            background: #F5FAFE;
+            margin-left: 165px;
+            margin-top: 18px;
+            margin-right: 19px;
+        }
+
+        .fourthnav a {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 13px;
+            /* identical to box height */
+
+            color: #0A223D;
+            text-decoration: none;
+
+        }
+
+        h1#hotelname {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            margin-right: 14px;
+            display: inline-block;
+            margin: 0;
+
+        }
+
+        p#hotelconditions {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            /* identical to box height */
+
+            /* Gray 1 */
+
+            color: #333333;
+            grid-row: 3 / 4;
+            grid-column: 1 / 2;
+            margin: 0;
+        }
+
+        img#hotelstars {
+            width: 48px;
+            height: 8px;
+            grid-row: 1 / 1;
+            grid-column: 1 / 2;
+            align-self: flex-end;
+        }
+
+        img#flashoffer {
+            display: inline-block;
+        }
+
+        div#hotel {
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+            margin: 0;
+            align-self: center;
+        }
+
+        img#ratings {
+            grid-row: 2 / 3;
+            grid-column: 2 / 3;
+        }
+
+        img#beach {
+            width: 728px;
+            height: 450px;
+            margin-left: 167px;
+            margin-right: 30px;
+        }
+
+        img#booking {
+            width: 100% margin-bottom: 27px;
+        }
+
+        img#map {
+            width: 100%;
+        }
+
+        div.content-1 {
+            display: flex;
+
+        }
+
+        div.content-2 {
+            display: flex;
+
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body class="wrapper">
+
+    <header class="header-flexcontainer">
+        <div id="firstnav">
+            <div id="phonenumber">Questions? Need Help? Call us on (+123) 456 1500</div>
+            <img src="/Frontend-Course/Week6/Assets/Images/Vector.png" alt="Giftbox" id="giftbox">
+            <div id="giftcard">BTP Gift Card</div>
+            <img src="/Frontend-Course/Week6/Assets/Images/Vector-Stroke.png" alt="Vector">
+            <div id="loyalty">Loyalty Program</div>
+        </div>
+        <div id="secondnav">
+            <div id="agencyname">Best <span style="color: rgb(241, 72, 109);">tour</span> plan</div>
+            <div class="search-container">
+                <form action="/action_page.php" id="search">
+                    <input type="text" placeholder="Search location" name="search" id="searchfield">
+                    <button type="submit" id="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="parent"><img src="/Frontend-Course/Week6/Assets/Images/shopping-cart.png" alt="shoppingcart"
+                    id="shoppingcart">
+                <img src="/Frontend-Course/Week6/Assets/Images/Pinkcircle.png" alt="pinkcircle" id="pinkcircle"></div>
+            <img src="/Frontend-Course/Week6/Assets/Images/Profile.png" alt="userimage" id="userimage">
+            <div id="username">Nathan</div>
+            <img src="/Frontend-Course/Week6/Assets/Images/Vector_2.png" alt="vectordown">
+        </div>
+        <nav class="thirdnav">
+            <a href='/alldeals/' style="margin-right: 83px;">ALL DEALS</a>
+            <a href='/hotels/' style="margin-right: 83px;">HOTELS</a>
+            <a href='/activities/' style="margin-right: 83px;">ACTIVITIES</a>
+            <a href='/hoteldaypackages/' style="margin-right: 83px;">HOTEL DAY PACKAGES</a>
+            <a href='/restaurants/' style="margin-right: 83px;">RESTAURANTS</a>
+            <a href='/events/' style="margin-right: 83px;">EVENTS</a>
+            <a href='/rodrigues/'>RODRIGUES</a>
+        </nav>
+        <nav class="fourthnav">
+            <a href='/home/'>Home</a> /
+            <a href='/flashoffers/'>Flash Offers</a> /
+            <a href='/grandhiltonhotel/'>Grand Hilton Hotel</a>
+        </nav>
+        <div class="wrapper-2">
+            <img src="/Frontend-Course/Week6/Assets/Images/Stars.png" alt="hotelstars" id="hotelstars">
+            <div id="hotel">
+                <h1 id="hotelname">GRAND HILTON HOTEL</h1>
+                <img src="/Frontend-Course/Week6/Assets/Images/Flashoffer.png" alt="flashoffer" id="flashoffer">
+            </div>
+            <p id="hotelconditions">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</p>
+            <img src="/Frontend-Course/Week6/Assets/Images/Ratings.png" alt="ratings" id="ratings">
+        </div>
+    </header>
+    <main class="main-wrapper">
+        <div class="content-1"><img src="/Frontend-Course/Week6/Assets/Images/Beach.png" alt="beach" id="beach"></div>
+        <div class="content-2"><img src="/Frontend-Course/Week6/Assets/Images/Booking.png" alt="booking" id="booking">
+            <img src="/Frontend-Course/Week6/Assets/Images/Map.png" alt="map" id="map"></div>
+
+
+
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-1">Footer-1</div>
+        <div class="footer-2">Footer-2</div>
+        <div class="footer-3">Footer-3</div>
+        <div class="footer-4">Footer-4</div>
+    </footer>
+
+
+</body>
+
+</html>
