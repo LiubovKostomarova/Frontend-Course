@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <main class="main" id="main">
+        <form>
+            <label for="mode" id="modeLabel">Choose color mode</label>
+            <select name="mode" id="mode">
+                <option class="modes" value="dark" >Dark mode</option>
+                <option class="modes" value="light">Light</option>
+                <option class="modes" value="pink">Pink</option>
+            </select>
+            <div id="signUp">
+            <h1>Registration</h1>
+            <section class="userAccount">
+                <h2>User Account</h2>
+                <p id="emailBlock">
+                    <label for="email">User Email*</label>
+                    <input type="email" placeholder="example@gmail.com" name="email" id="emailBlock__emailField" onchange='validateEmail();' required>
+                </p>
+                <p>
+                    <label for="password">User Password*</label>
+                    <input required type="password" name="password" placeholder="********" id="pass" onkeyup="checkPassLenght();">
+                </p>
+                <p>
+                    <label for="confirm">Confirm Password*</label>
+                    <input required type="password" name="confirm" placeholder="********" id="confirm"  onkeyup="checkPass();">
+                </p>
+                <div id="passInfo"></div>
+            </section>
+            <section class="personalInfo">
+                <h2>Personal Information</h2>
+                <p>
+                    <label for="firstName">First Name*</label>
+                    <input required onchange="ValidateName(this);" placeholder="Name" type="text" name="firstName" id="firstName">
+                </p>
+                <p>
+                    <label for="lastName">Last Name*</label>
+                    <input required onchange="ValidateName(this);" placeholder="Surname" type="text" name="lastName">
+                </p>
+                <p>
+                    <label for="phone">Phone Number*</label>
+                    <input required type="tel" name="phone" id="phone" onchange="checkPhone();">
+                </p>
+                <p>
+                    <label for="location">Your Location</label>
+                    <select required name="location" id="location">
+                        <option value="north">North</option>
+                        <option value="south">South</option>
+                        <option value="center">Center</option>
+                        <option value="jerusalem">Jerusalem</option>
+                        <option value="outside">Outside of Israel</option>
+                    </select>
+                </p>
+            </section>
+            <section class="profInfo">
+                <h2>Professional Information</h2>
+                <p>
+                    <label for="startDate">When you available to start?</label>
+                    <input required type="date" name="startDate" placeholder="2021-04-20">
+                </p>
+                <p>
+                    <label for="cv">Upload CV</label>
+                    <input type="file" name="cv" required>
+                </p>
+            </section>
+            <p id="agreement">
+                <input type="checkbox" name="agreement__input" id="agreement__input" required>
+                <label for="agreement__input" id="agreement__input-label">I agree to receive commercial and marketing materials including e-mails from Olim.Tech and its affiliates. See Olim.tech Privacy Policy for terms and conditions.</label>
+            </p>
+            <button id='registrateBtn'>Submit</button>
+            </div>
+    </form>
+    </main>
+
+    <script src="test.js"></script>
+</body>
+</html>
