@@ -8,18 +8,18 @@ let pass = document.getElementById('pass');
 let confirmPass = document.getElementById('confirm');
 
 
-function checkPassLenght() {
-    document.getElementById('lenght').innerHTML = (String(pass.value).length < 7) ? '<span class="error">Your password is too short<span>' : '';
+function checkPasswordLength() {
+    document.getElementById('length').innerHTML = (String(pass.value).length < 7) ? '<span class="error">Your password is too short<span>' : '';
     
 }
 
-function checkPass() {
+function checkPasswordConfirmation() {
        document.getElementById('passInfo').innerHTML = (pass.value == confirmPass.value) ?  `<span class='accepted'>Password accepted</span>` : `<span class='error'>Password mismatch</span>`;
 }
 
 function checkForm() {
     if(inputs[0].value == '' || inputs[1].value == '' || inputs[2].value == '' || inputs[3].value == '' || inputs[4].value == '' ||inputs[5].value == '' || inputs[6].value == '' || inputs[7].value == '') {
-        alert('Please, fill all the fields!')
+        alert('Some information is still missing, please fill all the fields!')
     } else {
         firstName = document.getElementById('firstName').value; 
         document.getElementById('signUp').innerHTML = `Welcome on the portal, ${firstName}!`;  

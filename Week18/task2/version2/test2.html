@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Login form</title>
+</head>
+
+<body>
+
+    <div class="container_form">
+        <form onsubmit="return false">
+            <div class="heading">
+                <h2>Registration</h2>
+            </div>
+            <div class="input">
+                <label>
+                    <input class="inputField" type="text" placeholder="First Name" id="firstName">
+                </label></div>
+            <div class="input"> <label>
+                    <input class="inputField" type="text" placeholder="Middle Name" id="midName">
+                </label></div>
+            <div class="input"> <label>
+                    <input class="inputField" type="text" placeholder="Last Name" id="lastName">
+                </label></div>
+            <div class="input"> <label>
+                    <input class="inputField" type="email" placeholder="email" id="email">
+                </label></div>
+            <div class="input"> <label>
+                    <input class="inputField" type="password" placeholder="Password" id="password">
+                </label></div>
+
+            <div id="errorMessage"></div>
+
+            <div class="btn_login">
+                <button class="btn" onclick="check()">Login</button></div>
+        </form>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="test2.js"></script>
+
+
+</body>
+
+</html>
