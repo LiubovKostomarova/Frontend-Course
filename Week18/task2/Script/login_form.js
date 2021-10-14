@@ -78,7 +78,6 @@
 
 }
 */
-<<<<<<< HEAD
 
 //Validation Week18 using JS validation and regexp
 
@@ -216,32 +215,6 @@ function check() {
     }
     
 }
-=======
-//Проверка для одного поля
-let errors = [];
-
-function checkValidity(input) {
-    let validity = input.validity;
-
-    if (validity.patternMismatch) 
-		{ errors.push('Неверный формат заполнения'); }
-    
-		if (validity.rangeOverflow) 
-		{ let max = input.max;
-			errors.push('Максимальное значение не может быть больше чем ' + max); }
-    
-		if (validity.rangeUnderflow) 
-		{ let min = input.min;
-			errors.push('Минимальное значение не может быть больше чем ' + min); }
-    
-		// И остальные проверки валидности...  
-}
-
-//Проверка для всех полей
-function checkAll() {
-		//получаем все инпуты
-    let inputs = document.querySelectorAll("input");
->>>>>>> e83aa9ba2aaac9070610530a2c45d164cd2a297f
 
 		//перебираем их и на каждый вызываем функцию валидации
     for (let input of inputs) {
