@@ -11,18 +11,48 @@
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./Styles/index.css">
     <title>W17 Practice task 2</title>
+    <style>
+        #img_profile {
+            width: 50px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="feedback__wrapper">
-        <h1>Leave your comment below</h1>
+    <div id="chat" class="feedback__wrapper">
+        <h1>Chat</h1>
+        <form>
+            <div class="form-group textStyle">
+                <img class="card-img-top imgStyle" id="img_profile" src="./Assets/Images/Profile.jpg" alt="Avatar"></br>
+                <label for="exampleFormControlFile1">Choose your profile picture:</label>
+                <input type="file" class="form-control-file" id="file" value="">
+            </div>
+            <div>
+                <label for="author">Name *
+                    <span id="authorError"></span>
+                </label>
+            </div>
+            <div>
+                <input type="text" name="author" id="author" value="" class=inputs />
+            </div>
 
-        <textarea name="somename" id="comment" cols="60" rows="3" class="form-control comment__input"
-            placeholder="Please enter your comment or feedback here"></textarea>
+            <h2>Leave your comment below</h2>
+            <div>
+                <label for="comment">Comment:
+                    <span id="commentError"></span>
+                </label>
+            </div>
+            <textarea name="comment" id="comment" cols="60" rows="3" class="form-control comment__input inputs"
+                placeholder="Please enter your comment or feedback here"></textarea>
 
-        <button id="btn" class="btn btn-warning btn-lg btn-block" onclick="checkSpam()">send</button>
+            <div>
+                <input type="button" name="button" id="btn_addComment" class="btn btn-warning btn-lg"
+                    value="Send" onclick="checkMessage()" />
+                <button class="btn btn-secondary" type="button" id="btn_clearInfo">Clear</button>
+            </div>
 
-        <div id="comment_final" class="comment__sent"></div>
+            <div id="comment_final" class="comment__sent"></div>
+        </form>
     </div>
 
 

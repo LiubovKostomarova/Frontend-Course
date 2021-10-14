@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <style>
+        label {
+            display: block;
+            color: rgb(119, 14, 119);
+            margin: 1vw 0;
+        }
+
+
+        #notes {
+            width: 60%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            padding-top: 5vw;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.5vw 0 0.5vw 0.5vw;
+            border: 1px solid rgb(100, 212, 78);
+            ;
+        }
+
+        #notes__list {
+            border: 1px solid rgb(60, 167, 167);
+            min-height: 150px;
+            width: 100%;
+            padding-left: 0.5vw;
+        }
+
+        .note {
+            color: rgb(197, 90, 197);
+            margin: 0.5vw;
+            border-bottom: 1px solid plum;
+        }
+
+        #newNote {
+            width: 100%;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #addNote__btn {
+            background-color: rgb(219, 46, 147);
+            color: white;
+            font-size: 1.3em;
+            padding: 10px 0 10px 0.5vw;
+            width: 100%;
+            border: none;
+            box-sizing: content-box;
+        }
+
+        .inputError {
+            border-color: red;
+        }
+
+        .errTxt {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="notes">
+        <div id="notes__list">
+        </div>
+        <p id="author">
+            <label for="author__input">Your name:*</label>
+            <input type="text" name="author__input" id="author__input" placeholder="Name" required
+                onchange="ValidateName(this);" />
+        </p>
+        <p id="newNote">
+            <label for="newNote__input">Your message:*</label>
+            <textarea name="newNote__input" id="newNote__input" cols="35" rows="9"
+                placeholder="Type your note"></textarea>
+        </p>
+        <div id="addNote">
+            <button id="btn_addNote">Add new note</button>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
