@@ -91,6 +91,15 @@ https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Sc
 4) Task4 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week17/task4
 5) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/The-%22new-Function%22-syntax
 
+###Week18:
+1) Questions answered and the file is here: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week18/Questions.docx
+2) Task1 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week18/task1
+3) Task2 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week18/task2
+4) Task3 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week18/task3
+5) Task4 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week18/task4
+6) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/localStorage-in-JavaScript:-A-complete-guide
+
+
 ###Week19:
 1) Questions answered and the file is here: https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week19/Questions.docx
 2) Task1 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week19/task1
