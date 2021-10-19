@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 30px;
+
+        }
+
+        .info {
+            max-width: 300px;
+            margin: auto;
+            padding: 10%;
+                       display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            border: 5px solid rgb(212, 120, 171);
+            border-radius: 5px;
+            background-color: rgb(216, 180, 207);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+        }
+
+        .city {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <section class="info">
+            <h1>Weather</h1>
+
+            <div class="city">City: </div>
+            <div class="container">
+                <label for="tempValue">Current temperature: &nbsp;</label>
+                <div class="tempValue"></div>
+            </div>
+            <div class="container">
+            <label for="humidity">Weather is: &nbsp;</label>
+            <div class="weather"></div>
+        </div>
+            <div class="container">
+                <label for="humidity">Humidity:&nbsp;</label>
+                <div class="humidity"></div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
