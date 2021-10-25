@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper__js">
+        <div class="content">
+            <h1>Week 21 Practice task 1</h1>
+            <p>Сделайте форму поиска по GIF-кам к открытому API https://developers.giphy.com/ </p>
+            <p>Используйте GET-запрос с параметрами в строке адреса. Страница должна выводить не более 5 картинок
+                одновременно.</p>
+
+            <hr class="horline">
+            <form>
+                <label for="keyword">Enter a keyword</label>
+                <input type="text" id="key-word" placeholder="search">
+                <button id="btnSearch" type="submit" class="button btn1">display giphy</button>
+            </form>
+
+            <hr class="horline">
+
+            <div class="results">
+                <!-- gif images here -->
+            </div>
+
+        </div>
+    </div>
+    
+    <script>
+        // videos used for this task:
+// https://www.youtube.com/watch?v=HRh6zHRwRLo - How to Use the Giphy API
+// youtube.com/watch?v=FmpMIaukgfA - Fetch in Under Five
+// https://www.youtube.com/watch?v=x199b3C15bA - DOM methods insertBefore and insertAdjacentElement
+
+let apiKey = "e1dc1D5IhYvob3Wq8xVyAbWBB5WcxYWW";
+
+document.addEventListener("DOMContentLoaded", init);
+
+function init() {
+    document.getElementById("btnSearch").addEventListener("click", event => {
+        event.preventDefault(); //to stop the page reload
+        let url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&limit=5&q=`;
+        let str = document.getElementById("keyword").value.trim();
+        url = url.concat(str);
+        console.log(url);
+        fetch(url)
+            .then(response => response.json())
+            .then(content => {
+                //  data, pagination, meta
+                console.log(content.data);
+                console.log("META", content.meta);
+                let fig = document.createElement("figure");
+                let img = document.createElement("img");
+                let fc = document.createElement("figcaption");
+                img.src = content.data[0].images.downsized.url;
+                img.alt = content.data[0].title;
+                fc.textContent = content.data[0].title;
+                fig.appendChild(img);
+                fig.appendChild(fc);
+                let results = document.querySelector(".results");
+                results.insertAdjacentElement("afterbegin", fig);
+                document.querySelector("#key-word").value = "";
+            })
+            .catch(err => {
+                console.error(err);
+            });
+    });
+}
+
+// To display more than 1 gif I need to create multiple img tags inside the loop and give them each a unique src.
+
+// for (let i = 0;, i <content.data.length; i++) {
+//     createImg(content.data[0].images.original.url);
+// }
+// to return to later
+    </script>
+</body>
+</html>
