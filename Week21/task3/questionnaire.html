@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        input:valid:required {
+            border: 1px green solid;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Questionnaire for cat-owners</h1>
+    </header>
+    <main>
+        <form id="formCats">
+            <div>
+                <label for="name">Cat's name:* </label>
+                <input type="text" id="name" required />
+            </div>
+            <fieldset style="width: 230px; height: 160px; margin-top: 10px; margin-bottom: 10px;">
+                <legend>Owner's full name:</legend>
+                <div><label for="lastname">Your last name:</label>
+                    <input type="text" id="lastname" pattern="^[а-яА-ЯёЁa-zA-Z-]+$" 
+                    title="Please, use letters or - for double names." required br/>
+                <label for="firstname1">Your first name:</label>
+                    <input type="text" id="firstname1" pattern="^[а-яА-ЯёЁa-zA-Z-]+$" 
+                    title="Please, use letters or - for double names." required />
+                <label for="firstname2">Your patriotic name:</label>
+                    <input type="text" id="firstname2" pattern="^[а-яА-ЯёЁa-zA-Z-]+$" 
+                    title="Please, use letters." required /></div>                               
+            </fieldset>
+            
+            <div>
+                <label for="address">E-mail:* </label>
+                <input type="email" id="address" required />
+            </div>
+            <div>
+                <label for="bd">Cat's date of birth:*</label>
+                <input type="date" id="bd" required />
+            </div>
+            <div>
+                <select required>
+                    <option value="persian">Persian</option>
+                    <option value="maincoon">Main Coon</option>
+                    <option value="british">British Shorthair</option>
+                    <option value="maine">Maine Coon</option>
+                    <option value="siamese">Siamese</option>
+                    <option value="siberian">Siberian</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="feed">Food preferences</label> <br />
+                <input type="checkbox" name="feed" id="feed" /> Wet food <br />
+                <input type="checkbox" name="feed" /> Dry food <br />
+                <input type="checkbox" name="feed" /> Natural food <br />
+                <input type="checkbox" name="feed" /> Mixed <br />
+            </div>
+            <div>
+                <label for="mealsNumber">How many meals a day has your cat?* </label>
+                <input type="number" name="mealsNumber" min="1" max="10" required>
+            </div>
+            <div>
+                <label for="sex">Sex</label> <br />
+                <input type="radio" name="sex" id="sex" /> Female <br />
+                <input type="radio" name="sex" /> Male <br />
+            </div>
+            <div>
+                <label for="comment">Add a comment</label>
+                <p><textarea name="comment" id="comment" rows="5" cols="20">Your comment</textarea></p>
+            </div>
+            <div>
+                <label for="photo">Upload a cat's photo below:</label>
+                <div class="photo"><input type="file" name="photo" id="photo" /></div>
+            </div>
+            <div>
+                <button id="saveBtn">Save</button>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; All rights reserved</p>
+    </footer>
+</body>
+
+</html>

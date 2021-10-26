@@ -238,3 +238,31 @@ function ValidateEmail(emailField) {
     }
 }
 
+//Отправка данных с помощью POST
+    
+    //формируем объект с теми параметрами, которые хотим передать 
+    let user = {
+        user_name: document.getElementById('firstName').value,
+        user_surname: document.getElementById('lastName').value,
+        birthdate: document.getElementById('birthdate').value,
+        email: document.getElementById('emailBlock__emailField').value,
+        job: document.getElementById('job').value,
+        mobile_number: document.getElementById('phoneNumber').value,
+        user_password: document.getElementById('password').value,
+        agreement_accepted: document.getElementById('agreement__input-label').checked
+        }
+        console.log(user)
+        fetch("http://httpbin.org/post",
+        {
+            method: "POST",//по умолчанию используется GET, поэтому POST надо конкретно прописать
+            body: JSON.stringify(user),
+            headers: {
+                "Content-Type": "application/json; charset=utf-8"//отправляем в формате JSON
+            },
+        })
+        .then(response => response.json())
+        .then(user => {
+        console.log(user);
+        })
+        .catch(error => console.log(error));
+

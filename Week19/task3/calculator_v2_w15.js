@@ -61,32 +61,32 @@ class Calculator{
 }
 
 function addResult(){
-    document.getElementById('final_result').innerHTML = Calculator.addResult(Number(document.getElementById('first_number').value), Number(document.getElementById('second_number').value));
+    document.getElementById('final_result').value = Calculator.addResult(Number(document.getElementById('first_number').value), Number(document.getElementById('second_number').value));
 }
 
 function substractResult(){
-    document.getElementById('final_result').innerHTML = Calculator.substractResult(Number(document.getElementById('first_number').value), Number(document.getElementById('second_number').value));
+    document.getElementById('final_result').value = Calculator.substractResult(Number(document.getElementById('first_number').value), Number(document.getElementById('second_number').value));
 }
 
 function divideResult(){
-    document.getElementById('final_result').innerHTML = Calculator.divideResult(Number(document.getElementById('first_number').value), Number(document.getElementById('second_number').value));
+    document.getElementById('final_result').value = Calculator.divideResult(Number(document.getElementById('first_number').value), Number(document.getElementById('second_number').value));
 }
 
 function multiplyResult(){
-    document.getElementById('final_result').innerHTML = Calculator.multiplyResult(Number(document.getElementById('first_number').value), Number(document.getElementById('second_number').value));
+    document.getElementById('final_result').value = Calculator.multiplyResult(Number(document.getElementById('first_number').value), Number(document.getElementById('second_number').value));
 }
 
 /*OR Variant2:
 class Calculator {
     static multiplyResult(a, b){
-        return document.getElementById('final_result').innerText = `${+a * +b}`;
+        return document.getElementById('final_result').value = `${+a * +b}`;
     }
 
     static divideResult(a, b){
         if(b != 0){
-            return document.getElementById('final_result').innerText = `${+a / +b}`;
+            return document.getElementById('final_result').value = `${+a / +b}`;
         } else {
-            return document.getElementById('final_result').innerText = `Oops, you cannot divide by zero!`;
+            return document.getElementById('final_result').value = `Oops, you cannot divide by zero!`;
         }
     }
 

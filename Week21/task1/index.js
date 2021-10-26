@@ -1,12 +1,3 @@
-// 1. Сделайте форму поиска по GIF-кам к открытому API [https://developers.giphy.com/](https://developers.giphy.com/) 
-
-//     Используйте GET-запрос с параметрами в строке адреса. Страница должна выводить не более 5 картинок одновременно.
-
-
-//developers.giphy.com/
-
-
-
 /*const api = {
     endpoint: "https://api.giphy.com/v1/gifs/",
     key: "e1dc1D5IhYvob3Wq8xVyAbWBB5WcxYWW"
