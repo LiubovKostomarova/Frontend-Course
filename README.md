@@ -107,3 +107,6 @@ https://github.com/LiubovKostomarova/Frontend-Course/blob/Master/Week8/Assets/Sc
 4) Task3 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week19/task3
 5) Task4 is here: https://github.com/LiubovKostomarova/Frontend-Course/tree/Master/Week19/task4
 6) Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/Introduction-to-Object-Oriented-Programming-in-JavaScript
+
+###Week21:
+Wiki is created and the page is here: https://github.com/itgirlschool/wiki/wiki/Difference-between-the-http-requests-POST-and-GET
