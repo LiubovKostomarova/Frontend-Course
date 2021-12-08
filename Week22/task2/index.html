@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика №22, задания №2</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="image/icon.png" type="image/png">
+</head>
+<body>
+    <div class="positionNavJumbort">
+
+        <nav class="nav nav-pills nav-fill flex-column navSticky">
+            <a class="nav-link active" href="#">Task dashboard</a>
+            <a class="nav-link dropdown-togglen" data-toggle="dropdown" 
+                href="#works" role="button" aria-haspopup="true" aria-expanded="false">My best works</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://anastasiyamav.github.io/NURTOWN_PROJECT/">My first project job</a>
+                <a class="dropdown-item" href="https://anastasiyamav.github.io/IF_PROJECT/">My second project job</a>
+            </div>
+            <a class="nav-link" href="#myChart">Load on tasks throughout the year</a>
+            <a class="nav-link" href="#myChart1">My daily routine</a>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid jumbort1">
+            <div class="container">
+                <h1 class="display-4">Task dashboard</h1>
+                <p class="lead" id=dataNow></p>
+                <img class="imgStyle" src="image/working.png" alt="working">
+            </div>        
+        </div>
+    
+        <div class="jumbotron jumbotron-fluid jumbort2">
+            <div class="container">
+                <h3 class="display-4">My best works</h3>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">My first project job</h4>
+                        <a href="https://anastasiyamav.github.io/NURTOWN_PROJECT/" class="btn btn-primary">NURTOWN PROJECT</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">My second project job</h4>
+                        <a href="https://anastasiyamav.github.io/IF_PROJECT/" class="btn btn-primary">IF PROJECT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chart-container" name="myChart">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <div class="divSlyle" name="myChart1">
+        <h2>My daily routine</h2>
+    </div>
+    <div class="chart-container">
+        <canvas id="myChart1"></canvas>
+    </div>
+    <div id="box"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+        crossorigin="anonymous"></script>
+    <script src="bundle.js"></script>
+</body>
+</html>

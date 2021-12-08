@@ -1,0 +1,16 @@
+{
+  "name": "week22",
+  "version": "1.0.0",
+  "description": "week22_2\u001b[D\u001b[D\u001b[D\u001b[D_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vostrikova A.V.",
+  "license": "ISC",
+  "dependencies": {
+    "chart": "^0.1.2",
+    "choreographer-js": "^1.1.0",
+    "moment": "^2.29.1"
+  }
+}

@@ -1,0 +1,69 @@
+#box{
+    margin: -1550px 0;
+    width: 100%;
+    height: 95vh;
+    background: rgb(132, 176, 226);
+    opacity: 0.2;
+}
+
+/* canvas {
+    border: 8px dotted red;
+} */
+
+.chart-container{
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 110px;
+    height: 80vh;
+    width: 80vw;
+}
+
+.divSlyle{
+    /* border: 5px dotted red;  */
+    margin-top: 50px; 
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgStyle{
+    max-width: 150px;
+    /* border: 10px dotted red;  */
+}
+
+/* .container1{
+    border: 10px dotted blueviolet; 
+} */
+
+.navSticky{
+    grid-area: navSticky;
+    /* border: 10px dotted rgb(101, 226, 43);  */
+    font-size: 24px;
+    position:-webkit-sticky; 
+    position: sticky; 
+    top: 0;
+}
+
+.jumbort1{
+    grid-area: jumbort1;
+}
+
+.jumbort2{
+    grid-area: jumbort2;
+}
+
+.positionNavJumbort{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+            "navSticky jumbort1"
+            "jumbort2 jumbort2";
+    
+}
+

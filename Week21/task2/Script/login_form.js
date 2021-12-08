@@ -224,7 +224,7 @@ function check() {
 		//выводим ошибки в div 
     let errorDiv = document.querySelector('.errorsInfo');
     errorDiv.innerHTML = errors.join('. \n');
-}
+
 
 //Проверка e-mail
 function ValidateEmail(emailField) {
@@ -244,7 +244,7 @@ function ValidateEmail(emailField) {
     let user = {
         user_name: document.getElementById('firstName').value,
         user_surname: document.getElementById('lastName').value,
-        birthdate: document.getElementById('birthdate').value,
+        birthdate: document.getElementsByName('birthdate').value,
         email: document.getElementById('emailBlock__emailField').value,
         job: document.getElementById('job').value,
         mobile_number: document.getElementById('phoneNumber').value,
