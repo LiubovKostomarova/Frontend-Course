@@ -1,0 +1,32 @@
+.superhero-card {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.superhero-card img {
+    width: 400px;
+    border-radius: 5px 5px 0 0;
+    height: 300px;
+
+}
+
+.superhero-name {
+    font-weight: bold;
+}
+
+.superhero-info,
+.superhero-name,
+.superhero-universe,
+.superhero-alterEgo,
+.superhero-occupation,
+.superhero-friends,
+.superhero-powers {
+    margin-bottom: 20px;
+}
