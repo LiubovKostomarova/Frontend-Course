@@ -16,6 +16,7 @@ $heightTraffic: 100px;
     justify-content: center;
     align-items: center;
     border: 2px solid #fff;
+    border-radius: 10px;
 }
 
 .container {
@@ -30,7 +31,7 @@ $heightTraffic: 100px;
 
 .card {
     &Body {
-        width: 350px;
+        width: 300px;
         height: 400px;
         border: 2px solid #fff;
         @include displayCardInner;
@@ -43,19 +44,19 @@ $heightTraffic: 100px;
             color: $fontColor;
         }
         &_450 {
-            background-color: #228872;
+                        background-color: #0a3812;
             height: $heightTop;
             @include position;
             color: $fontColor;
         }
         &_550 {
-            background-color: #c4554e;
+            background-color: #a83027;
             height: $heightTop;
             @include position;
             color: $fontColor;
         }
         &_1000 {
-            background-color: #282f37;
+            background-color: #0b141d;
             height: $heightTop;
             @include position;
             color: $fontColor;
@@ -69,19 +70,19 @@ $heightTraffic: 100px;
             color: $fontColor;
         }
         &_450 {
-            background-color: #24ae8d;
+            background-color: #2a7937;
             height: $heightCenter;
             @include position;
             color: $fontColor;
         }
         &_550 {
-            background-color: #f46a5f;
+            background-color:#d3574f;
             height: $heightCenter;
             @include position;
             color: $fontColor;
         }
         &_1000 {
-            background-color: #333333;
+            background-color: #141a20;
             height: $heightCenter;
             @include position;
             color: $fontColor;
@@ -101,6 +102,11 @@ $heightTraffic: 100px;
     }
 }
 
-.circle {
-    border: 5px solid #c4558e;
+.highlight {
+    border: 5px solid #e4c252;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
 }

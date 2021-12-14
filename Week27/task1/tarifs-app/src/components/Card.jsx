@@ -3,7 +3,7 @@ import "./Card.scss";
 
 function Card(props) {
   return (
-    <div className={"cardBody" + (props.selected === true ? " circle" : "")}>
+    <div className={"cardBody" + (props.selected === true ? " highlight" : "")}>
       <div className={`cardTop_${props.cost}`}>Unlimited {props.cost}</div>
       <div className={`cardCenter_${props.cost}`}>
         EUR <p className="number">{props.cost}</p> /per month

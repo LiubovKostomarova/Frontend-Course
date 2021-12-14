@@ -29,6 +29,7 @@ const items = [
 function App() {
   return (
     <div className="App">
+      <h1>Tarifs</h1>
       <div className="container">
         {items.map((item) => (
           <Card
