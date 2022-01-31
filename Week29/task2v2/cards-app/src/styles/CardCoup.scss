@@ -1,0 +1,66 @@
+$vh: 20vh;
+$vw: 8vw;
+
+$weight: bold;
+
+$backgroundCard: rgba(235, 175, 85, 0.397);
+$colorEn:rgb(27, 22, 22);
+$colorTr:rgb(94, 85, 76);
+$colorR:rgb(218, 121, 42);
+
+$colorBtn:rgb(233, 216, 62);
+$colorH: rgb(228, 141, 59);
+$colorA:rgb(46, 41, 33);
+
+.coup {
+    display: flex;
+    justify-content: center;
+}
+
+.coup_btn {
+    display: flex;
+    align-items: center;
+}
+
+.coup_button {
+    border: 1px solid rgb(139, 44, 0);
+    border-radius: 5px;
+    color: rgb(85, 0, 0);
+    font-weight: bolder;
+    background: $backgroundCard;
+
+    &:hover {
+        color: $colorH;
+        box-shadow: 0 0 40px 40px #fa7435ab inset;
+    }
+
+    &:active {
+        color: $colorA;
+        background-color: rgb(12, 0, 34);
+        box-shadow: 2px 3px 2px #510086;
+        top: 3px;
+    }
+}
+
+.coup_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coup_txt {
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: $weight;
+    color: $colorTr;
+    text-shadow: 0px 2px 2px rgb(255, 136, 0);
+}
+
+.coup_images {
+    display: flex;
+    justify-content: center;
+}
+
+.coup_img {
+    width: 21vw;
+}

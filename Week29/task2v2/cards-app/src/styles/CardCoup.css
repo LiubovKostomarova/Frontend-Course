@@ -1,0 +1,74 @@
+.coup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.coup_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coup_button {
+  border: 1px solid #8b2c00;
+  border-radius: 5px;
+  color: #550000;
+  font-weight: bolder;
+  background: rgba(235, 175, 85, 0.397);
+}
+
+.coup_button:hover {
+  color: #e48d3b;
+  -webkit-box-shadow: 0 0 40px 40px #fa7435ab inset;
+          box-shadow: 0 0 40px 40px #fa7435ab inset;
+}
+
+.coup_button:active {
+  color: #2e2921;
+  background-color: #0c0022;
+  -webkit-box-shadow: 2px 3px 2px #510086;
+          box-shadow: 2px 3px 2px #510086;
+  top: 3px;
+}
+
+.coup_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coup_txt {
+  font-size: 1.4em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #5e554c;
+  text-shadow: 0px 2px 2px #ff8800;
+}
+
+.coup_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.coup_img {
+  width: 21vw;
+}
+/*# sourceMappingURL=CardCoup.css.map */

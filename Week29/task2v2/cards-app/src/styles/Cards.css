@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+.card {
+  border-radius: 20px;
+  border: 2px solid rgba(212, 194, 36, 0.719);
+  margin: 50px, 300px, 30px, 300px;
+}
+
+.card-word {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px;
+}
+
+.map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 13px;
+  border: 1px solid transparent;
+  height: 20vh;
+  width: 8vw;
+  padding: 1em;
+  margin: 1em;
+  background: rgba(235, 175, 85, 0.397);
+}
+
+.card-en {
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #1b1616;
+}
+
+.card-tr {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #5e554c;
+}
+
+.card-russ {
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #da792a;
+}
+
+.card-russ:active {
+  color: #fccc74;
+  background-color: #0c0022;
+  top: 3px;
+}
+
+.card-button {
+  border: 1px solid #f3ab59;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: #eeac61;
+}
+
+.card-button:hover {
+  background-color: #b36307;
+}
+
+.card-button:active {
+  color: #2e2921;
+  background-color: #f1e8cf;
+  top: 3px;
+}
+/*# sourceMappingURL=Cards.css.map */

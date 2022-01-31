@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+$vh: 20vh;
+$vw: 8vw;
+
+$weight: bold;
+
+$backgroundCard: rgba(235, 175, 85, 0.397);
+$colorEn:rgb(27, 22, 22);
+$colorTr:rgb(94, 85, 76);
+$colorR:rgb(218, 121, 42);
+
+$colorBtn:rgb(233, 216, 62);
+$colorH: rgb(228, 141, 59);
+$colorA:rgb(46, 41, 33);
+
+.card {
+    border-radius: 20px;
+    border: 2px solid rgba(212, 194, 36, 0.719);
+    margin: 50px, 300px, 30px, 300px;
+}
+
+.card-word {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+
+.map {
+    display: flex;
+    flex: 0 0 45%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 13px;
+    border: 1px solid transparent;
+    height: $vh;
+    width: $vw;
+    padding: 1em;
+    margin: 1em;
+    background: $backgroundCard;
+}
+
+.card-en {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: $weight;
+    color: $colorEn;
+ }
+
+.card-tr {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: $weight;
+    color: $colorTr;
+    }
+
+.card-russ {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: $colorR;
+  }
+
+.card-russ:active {
+    color: rgb(252, 204, 116);
+    background-color: rgb(12, 0, 34);
+       top: 3px;
+}
+
+.card-button {
+    border: 1px solid rgb(243, 171, 89);
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: rgb(238, 172, 97);
+}
+
+.card-button:hover {
+    background-color: rgb(179, 99, 7);
+}
+
+.card-button:active {
+    color: $colorA;
+    background-color: rgb(241, 232, 207);
+    top: 3px;
+}
